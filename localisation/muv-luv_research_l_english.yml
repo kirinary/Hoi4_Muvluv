@@ -1,0 +1,13 @@
+﻿l_english:
+ tsf_folder:0 "戦術機"
+ tsf_folder_desc:0 "戦術機部隊の装備と武器"
+ TSF_TITLE_VM:0 "特殊部隊"
+ TSF_TITLE_OR:0 "宝珠と武器"
+ TSF_TITLE_AR:0 "支援装備"
+
+ saff_folder:0 "戦略航空機動要塞"
+ saff_folder_desc:0 "戦略航空機動要塞の装備と武器"
+ SAFF_TITLE_VM:0 "特殊部隊"
+ SAFF_TITLE_OR:0 "宝珠と武器"
+ SAFF_TITLE_AR:0 "支援装備"
+

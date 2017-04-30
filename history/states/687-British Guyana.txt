@@ -1,0 +1,29 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 309000
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=112
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			4982 = {
+				naval_base = 1
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U02
+		}
+	}
+	
+	provinces={
+		4982 8107 12716 
+	}
+}

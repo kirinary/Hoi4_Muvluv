@@ -1,0 +1,37 @@
+state={
+	id=700
+	name="STATE_700"
+	manpower = 1768500
+	
+	state_category = pastoral
+	
+	history=
+	{
+		owner = ENG
+		victory_points = {
+			2038 1 
+		}
+		buildings = {
+			infrastructure = 3
+			2038 = {
+				naval_base = 3
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+			}
+		}
+	}
+	
+	provinces={
+		2038 2094 
+	}
+}

@@ -1,0 +1,20 @@
+﻿###########################
+# eu Events
+###########################
+
+add_namespace = eu
+
+### Muvluv用 ###
+# BETAドーバー上陸
+country_event = {
+	id = eu.5
+	title = eu.5.t
+	desc = eu.5.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only	= yes
+
+	option = {
+		name = eu.5.a
+	}
+}

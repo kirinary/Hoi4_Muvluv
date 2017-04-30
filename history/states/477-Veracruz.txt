@@ -1,0 +1,33 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 1951460
+	
+	state_category = town
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+			12810 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			12810 1
+		}
+		
+		1998.1.1 = {
+			owner = U08
+			add_core_of = U08
+			remove_core_of = MEX
+		}
+	}
+
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
+}

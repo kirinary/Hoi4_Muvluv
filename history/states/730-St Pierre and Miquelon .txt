@@ -1,0 +1,32 @@
+state={
+	id=730
+	name="STATE_730"
+	manpower=3426
+	state_category = tiny_island
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			373 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FRA
+		
+		1998.1.1 = {
+			owner = H12
+			add_core_of = H12
+			remove_core_of = FRA
+			if = {
+				limit = { 
+					14 = { 
+							is_owned_by = H12
+					 }
+				}
+			}
+		}
+	}
+	
+	provinces={ 373 }
+}

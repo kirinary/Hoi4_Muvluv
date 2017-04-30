@@ -1,0 +1,47 @@
+bookmarks = {
+	bookmark = {
+		name = "BETA_LANDING_JAPAN_NAME"
+		desc = "BETA_LANDING_JAPAN_DESC"
+		date = 1998.1.1.1
+		picture = "GFX_select_date_1998"
+		default_country = "JAP"
+		
+		
+		JAP = {
+			history = JAP_BETA_LANDING_JAPAN_DESC
+			ideology = fascism
+			ideas={
+				state_shintoism
+				the_long_lance
+				spiritual_mobilization_idea
+				warrior_traditions_idea
+				student_mobilization_idea
+				imperial_austerity_idea
+			}			
+		}
+		U01 = {
+			history = U01_BETA_LANDING_JAPAN_DESC
+			ideology = democratic
+		}
+		U02 = {
+			history = U02_BETA_LANDING_JAPAN_DESC
+			ideology = democratic
+		}
+		U04 = {
+			history = U04_BETA_LANDING_JAPAN_DESC
+			ideology = democratic
+		}
+		U08 = {
+			history = U08_BETA_LANDING_JAPAN_DESC
+			ideology = democratic
+		}
+		"---"={
+			history = "OTHER_BETA_LANDING_JAPAN_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

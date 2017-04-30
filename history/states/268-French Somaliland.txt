@@ -1,0 +1,36 @@
+state={
+	id=268
+	name="STATE_268"
+	manpower = 85232
+
+
+	state_category = enclave
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			8124 = {
+				naval_base = 2
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+				air_base = 4
+			}
+		}
+	}
+	
+	provinces={
+		4985 8124
+ 	}
+}

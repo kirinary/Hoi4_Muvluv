@@ -1,0 +1,53 @@
+state={
+	id=749
+	name="STATE_749"
+	resources={
+		steel=24.000
+		oil=100.000
+		chromium=50.000
+		tungsten=100.000
+		rubber=100.000
+	}
+
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 4
+			dockyard = 3
+			air_base = 10
+			3878 = {
+				naval_base = 6
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U06
+			add_core_of = U06
+			
+			buildings = {
+				infrastructure = 10
+				industrial_complex = 5
+				arms_factory = 7
+				
+				3878 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			victory_points = {
+				3878 20
+			}
+		}
+	}
+
+	provinces={
+		3878 859
+	}
+	manpower=85000000
+}

@@ -1,0 +1,134 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+U01_template_design = {
+	enable = {
+		original_tag = U01
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = tsf
+		value = 80
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = -30
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = -30
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = -20
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = modern_armor
+		value = 20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = -60
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -30
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = -20
+	}
+}
+
+
+U01_area_priority = {
+	enable = {
+		original_tag = U01
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 20 #more focus here
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 60
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 10
+	}
+}

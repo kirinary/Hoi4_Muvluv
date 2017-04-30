@@ -1,0 +1,28 @@
+state={
+	id=706
+	name="STATE_706"
+	manpower = 186637
+	
+	state_category = small_island
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			13017 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FRA
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			remove_core_of = FRA
+		}
+	}
+
+	provinces={
+		13017 
+	}
+}

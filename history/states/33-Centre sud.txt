@@ -1,0 +1,34 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 636400
+	
+	state_category = town
+
+	history={
+		owner = FRA
+		
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FRA
+		
+		1998.1.1 = {
+			owner = H12
+			add_core_of = H12
+			remove_core_of = FRA
+			if = {
+				limit = { 
+					14 = { 
+							is_owned_by = H12
+					 }
+				}
+			}
+		}
+	}
+
+	provinces={
+		651 669 3621 3626 3655 6648 6651 9629 11869 
+	}
+}

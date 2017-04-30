@@ -1,0 +1,31 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+H01_template_design = {
+	enable = {
+		original_tag = H01
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = beta_tank
+		value = 80
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = beta_fort
+		value = 40
+	}
+}

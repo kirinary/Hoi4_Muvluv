@@ -1,0 +1,61 @@
+
+state={
+	id=416
+	name="STATE_416"
+	
+	manpower = 1059739
+	state_category = rural
+	
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			5029 1 
+		}
+		add_core_of = PER
+
+		1998.1.1 = {
+			owner = H02
+			add_core_of = H02
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 8
+				arms_factory = 14
+				
+				5029 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					416 = { 
+							is_owned_by = H02
+					 }
+				}
+				416 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 416 } 
+					 	add_resource = { type = oil amount = 200 state = 416 } 
+					 	add_resource = { type = chromium amount = 200 state = 416 } 
+					 	add_resource = { type = steel amount = 200 state = 416 } 
+					 	add_resource = { type = tungsten amount = 200 state = 416 } 
+					 	add_resource = { type = rubber amount = 200 state = 416 } 
+				}
+
+			}
+			
+			victory_points = {
+				5029 10
+			}
+		}
+	}
+
+	provinces={
+		1521 1888 1957 2000 5029 5073 7573 10351 10806 
+	}
+}

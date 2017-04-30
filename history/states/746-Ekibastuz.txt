@@ -1,0 +1,60 @@
+state={
+	id=746
+	name="STATE_746"
+	
+	state_category = rural
+	
+	resources={
+		chromium=22.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+
+			1998.1.1 = {
+			owner = H06
+			add_core_of = H06
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 8
+				arms_factory = 14
+				
+				7317 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					746 = { 
+							is_owned_by = H06
+					 }
+				}
+				746 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 746 } 
+					 	add_resource = { type = oil amount = 200 state = 746 } 
+					 	add_resource = { type = chromium amount = 200 state = 746 } 
+					 	add_resource = { type = steel amount = 200 state = 746 } 
+					 	add_resource = { type = tungsten amount = 200 state = 746 } 
+					 	add_resource = { type = rubber amount = 200 state = 746 } 
+				}
+			}
+			victory_points = {
+				7317 20
+			}
+		}
+	}
+
+	provinces={
+		4670 4685 7317 10202 12616
+	}
+	manpower=659223
+	buildings_max_level_factor=1.000
+}

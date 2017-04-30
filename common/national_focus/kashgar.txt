@@ -1,0 +1,96 @@
+focus_tree = {
+	id = kashgar_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = H01
+		}
+	}
+	
+	focus = {
+		id = beta_kashgar_war
+		x = 1
+		y = 0
+		cost = 10
+		icon = GFX_goal_generic_construction2
+
+		available = {
+		    is_puppet = no
+		    date > 1973.2.1
+		    date < 1976.1.1
+		    
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			H01 = {
+				declare_war_on = {  target = AFG  type = annex_everything }  #AFG
+			}
+		}
+	}
+	
+	focus = {
+		id = beta_kashgar_war_2
+		x = 1
+		y = 1
+		cost = 10
+		icon = GFX_goal_generic_construction2
+
+		prerequisite = { focus = beta_kashgar_war }
+		
+		available = {
+		    is_puppet = no
+		    date > 1973.6.1
+		    date < 1975.1.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			H01 = {
+				create_wargoal = {
+					type = annex_everything
+					target = PER
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = beta_kashgar_war_3
+		x = 1
+		y = 2
+		cost = 4
+		icon = GFX_goal_generic_construction2
+
+		prerequisite = { focus = beta_kashgar_war_2 }
+		
+		available = {
+		    is_puppet = no
+     	    country_exists  = H02
+		    date > 1974.10.2
+		    date < 1976.1.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			H01 = {
+				declare_war_on = {  target = SOV  type = annex_everything } #SOV
+			}
+			H02 = {
+				add_to_war = { targeted_alliance = H01 enemy = SOV } #SOV 
+			}
+		}
+	}
+}

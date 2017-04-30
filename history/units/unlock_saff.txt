@@ -1,0 +1,7 @@
+﻿division_template = {
+	name = "SAFF"
+
+	regiments = {
+		saff = { x = 0 y = 0 }
+	}
+}

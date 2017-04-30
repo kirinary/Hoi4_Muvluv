@@ -1,0 +1,58 @@
+state={
+	id=724
+	name="STATE_724"
+	manpower = 2041700
+	
+	state_category = rural
+	
+	resources={
+		rubber=70
+	}
+
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7236 1 
+		}
+		add_core_of = SIA
+		
+		1998.1.1 = {
+			owner = U04
+			add_core_of = U04
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+				
+				4388 = {
+					bunker = 10
+				}
+				4392 = {
+					bunker = 10
+				}
+				1308 = {
+					bunker = 10
+				}
+				10158 = {
+					bunker = 10
+				}
+				12122 = {
+					bunker = 10
+				}
+				12220 = {
+					bunker = 10
+				}
+			}
+		}
+	}
+	
+	provinces={
+		1279 1281 1308 1337 1366 1394 4297 4312 4371 4388 4392 7236 10156 10158 12122 12131 12201 12220 12230 12286 
+	}
+}

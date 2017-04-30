@@ -1,0 +1,6 @@
+sub_unit_categories = {
+	category_beta_tank_infantry
+	category_beta_fort_infantry
+	category_tsf
+	category_saff
+}

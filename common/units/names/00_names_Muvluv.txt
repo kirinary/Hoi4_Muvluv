@@ -1,0 +1,32 @@
+﻿# Names are based on equipment types (picking equipment with highest amount from the pool)
+# Generic are used for countries that are not scripted in.
+generic = {
+	# Land units
+	###戦術機###
+	###日本###
+	TSF-Imperial-Army = {
+		prefix = ""
+		generic = { "TSF Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+
+	###########
+	
+	###BETA###
+	beta_tank = {
+		prefix = ""
+		generic = { "BETA-Tank" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	beta_fort = {
+		prefix = ""
+		generic = { "BETA-Fort" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	##########
+}

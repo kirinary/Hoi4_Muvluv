@@ -1,0 +1,190 @@
+﻿capital = 214
+
+oob = "H04_1998"
+
+set_technology = {
+	beta_infantry_weapons = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	assembly_line_production = 1
+	streamlined_line = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	dispersed_industry5 = 1
+	synth_oil_experiments = 1
+	oil_plant = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	construction5 = 1
+	excavation1 = 1
+	excavation2 = 1
+	excavation3 = 1
+	excavation4 = 1
+	excavation5 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+}
+
+set_research_slots = 0
+set_national_unity = 0.9
+
+
+set_politics = {
+
+	parties = {
+		beta = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = beta
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+######################################
+# BETA戦争関連
+######################################
+
+add_to_war = { targeted_alliance = H01 enemy = U02 } #U02
+
+
+######################################
+# BETA戦争関連　ここまで
+######################################
+
+create_country_leader = {
+	name = "BETA_頭脳級"
+	#desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "leader_unknown.dds"
+	expire = "2100.12.31"
+	ideology = beta
+	traits = {
+		dictator
+	}
+}
+
+add_namespace = {
+	name = "h04_unit_leader"
+	type = unit_leader
+}
+
+create_field_marshal = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}

@@ -1,0 +1,319 @@
+﻿####陸軍
+#####################
+#戦車級
+#####################
+division_template = {
+	name = "BETA-Tank"
+	regiments = {
+		beta_tank = { x = 0 y = 0 }
+		beta_tank = { x = 0 y = 1 }
+		beta_tank = { x = 0 y = 2 }
+		beta_tank = { x = 1 y = 0 }
+		beta_tank = { x = 1 y = 1 }
+		beta_tank = { x = 1 y = 2 }
+		beta_tank = { x = 2 y = 0 }
+		beta_tank = { x = 2 y = 1 }
+		beta_tank = { x = 2 y = 2 }
+	}
+}
+
+#####################
+#要塞級
+#####################
+division_template = {
+	name = "BETA-Fort"
+	regiments = {
+		beta_fort = { x = 0 y = 0 }
+		beta_fort = { x = 0 y = 1 }
+		beta_fort = { x = 0 y = 2 }
+		beta_fort = { x = 1 y = 0 }
+		beta_fort = { x = 1 y = 1 }
+		beta_fort = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 12687
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Fort"
+		location = 12687
+		division_template = "BETA-Fort"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = beta_tank_equipment_1
+			creator = "H10"
+		}
+		requested_factories = 8
+		progress = 0.6
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = beta_fort_equipment_1
+			creator = "H10"
+		}
+		requested_factories = 4
+		progress = 0.6
+		efficiency = 100
+	}
+}
+
+### 空軍
+#air_wings = {
+#	577 = { 
+#			beta_fighter_equipment_1 =  {
+#			owner = "H10"
+#			amount = 400
+#			}
+#			
+#			beta_nav_bomber_equipment_1 = {
+#			owner = "H10" 
+#			amount = 200
+#			}
+#			
+#			beta_strat_bomber_equipment_1 = {
+#			owner = "H10"
+#			amount = 200
+#			}
+#			
+#			beta_tac_bomber_equipment_1 = {
+#			owner = "H10"
+#			amount = 200
+#			}
+#		}
+#	}

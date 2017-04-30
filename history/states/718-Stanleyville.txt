@@ -1,0 +1,32 @@
+state={
+	id=718
+	name="STATE_718"
+	
+	state_category = pastoral
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+			}
+		}
+	}
+
+	provinces={
+		1181 1950 2034 2073 2154 2220 4201 4941 6027 7161 9962 10766 11934 12783 12808 12847 13176 
+	}
+	manpower=6229078
+	buildings_max_level_factor=1.000
+}

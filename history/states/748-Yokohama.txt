@@ -1,0 +1,29 @@
+
+state={
+	id=748
+	name="STATE_748" # Yokohama
+	manpower = 439480
+	
+	state_category = wasteland
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+			
+			9998 = {
+					naval_base = 6
+			}
+		}
+		add_core_of = JAP
+
+		victory_points = {
+			9998 5
+		}
+
+	}
+
+	provinces={
+		9998
+	}
+}

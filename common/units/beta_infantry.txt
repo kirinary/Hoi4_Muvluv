@@ -1,0 +1,116 @@
+sub_units = {
+	###BETA_戦車級
+	beta_tank = { 
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_beta_tank_infantry
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 200
+		default_morale = 0.5
+		manpower = 600
+
+		#Misc Abilities
+		training_time = 60
+		suppression = 8
+		weight = 0.5
+		
+		supply_consumption = 0.01
+	
+		need = {
+			beta_tank_equipment_1 = 300
+		}
+		hills = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.2
+		}
+		mountain = {
+			attack = 0.1
+			defence = 0.2
+			movement = 0.2
+		}
+		hive = {
+			attack = 0.2
+			defence = 0.3
+			movement = 0.2
+		}
+		
+	}
+	
+###BETA_要塞級
+	beta_fort = { 
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_beta_fort_infantry
+		}
+		
+		combat_width = 6
+		
+		#Size Definitions
+		max_strength = 45
+		max_organisation = 200
+		default_morale = 0.5
+		manpower = 300
+
+		#Misc Abilities
+		training_time = 80
+		suppression = 10
+		weight = 0.8
+		
+		supply_consumption = 0.01
+	
+		need = {
+			beta_fort_equipment_1 = 200
+		}
+		hills = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.2
+		}
+		mountain = {
+			attack = 0.1
+			defence = 0.2
+			movement = 0.2
+		}
+		hive = {
+			attack = 0.2
+			defence = 0.3
+			movement = 0.2
+		}
+	}
+}

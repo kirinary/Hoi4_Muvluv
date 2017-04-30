@@ -1,0 +1,274 @@
+﻿capital = 330
+
+oob = "H18_1998"
+
+set_technology = {
+	###BETA関連###
+	beta_infantry_weapons = 1
+	##############
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	assembly_line_production = 1
+	streamlined_line = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	dispersed_industry5 = 1
+	synth_oil_experiments = 1
+	oil_plant = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	construction5 = 1
+	excavation1 = 1
+	excavation2 = 1
+	excavation3 = 1
+	excavation4 = 1
+	excavation5 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	basic_encryption = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	basic_decryption = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+}
+
+set_research_slots = 0
+set_national_unity = 0.9
+
+set_politics = {
+
+	parties = {
+		beta = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = beta
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+######################################
+# BETA戦争関連
+######################################
+
+#add_to_war = { targeted_alliance = H01 enemy = GER } #GER
+add_to_war = { targeted_alliance = H01 enemy = U02 } #U02
+#add_to_war = { targeted_alliance = H01 enemy = SOV } #SOV
+#add_to_war = { targeted_alliance = H01 enemy = SWE } #SWE
+#add_to_war = { targeted_alliance = H01 enemy = FRA } #FRA
+#add_to_war = { targeted_alliance = H01 enemy = LUX } #LUX
+#add_to_war = { targeted_alliance = H01 enemy = BEL } #BEL
+#add_to_war = { targeted_alliance = H01 enemy = HOL } #HOL
+#add_to_war = { targeted_alliance = H01 enemy = CZE } #CZE
+#add_to_war = { targeted_alliance = H01 enemy = POL } #POL
+#add_to_war = { targeted_alliance = H01 enemy = AUS } #AUS
+#add_to_war = { targeted_alliance = H01 enemy = LIT } #LIT
+#add_to_war = { targeted_alliance = H01 enemy = EST } #EST
+#add_to_war = { targeted_alliance = H01 enemy = LAT } #LAT
+#add_to_war = { targeted_alliance = H01 enemy = SPR } #SPR
+#add_to_war = { targeted_alliance = H01 enemy = ITA } #ITA
+#add_to_war = { targeted_alliance = H01 enemy = ROM } #ROM
+#add_to_war = { targeted_alliance = H01 enemy = YUG } #YUG
+#add_to_war = { targeted_alliance = H01 enemy = SER } #SER
+#add_to_war = { targeted_alliance = H01 enemy = SWI } #SWI
+#add_to_war = { targeted_alliance = H01 enemy = TUR } #TUR
+#add_to_war = { targeted_alliance = H01 enemy = GRE } #GRE
+#add_to_war = { targeted_alliance = H01 enemy = ALB } #ALB
+#add_to_war = { targeted_alliance = H01 enemy = NOR } #NOR
+#add_to_war = { targeted_alliance = H01 enemy = DEN } #DEN
+#add_to_war = { targeted_alliance = H01 enemy = BUL } #BUL
+#add_to_war = { targeted_alliance = H01 enemy = POR } #POR
+#add_to_war = { targeted_alliance = H01 enemy = FIN } #FIN
+#add_to_war = { targeted_alliance = H01 enemy = IRE } #IRE
+#add_to_war = { targeted_alliance = H01 enemy = HUN } #HUN
+#add_to_war = { targeted_alliance = H01 enemy = AFG } #AFG
+#add_to_war = { targeted_alliance = H01 enemy = ARG } #ARG
+#add_to_war = { targeted_alliance = H01 enemy = AST } #AST
+#add_to_war = { targeted_alliance = H01 enemy = BHU } #BHU
+#add_to_war = { targeted_alliance = H01 enemy = BOL } #BOL
+#add_to_war = { targeted_alliance = H01 enemy = BRA } #BRA
+#add_to_war = { targeted_alliance = H01 enemy = CAN } #CAN
+#add_to_war = { targeted_alliance = H01 enemy = CHI } #CHI
+#add_to_war = { targeted_alliance = H01 enemy = CHL } #CHL
+#add_to_war = { targeted_alliance = H01 enemy = COL } #COL
+#add_to_war = { targeted_alliance = H01 enemy = COS } #COS
+#add_to_war = { targeted_alliance = H01 enemy = ECU } #ECU
+#add_to_war = { targeted_alliance = H01 enemy = ELS } #ELS
+#add_to_war = { targeted_alliance = H01 enemy = ETH } #ETH
+#add_to_war = { targeted_alliance = H01 enemy = GUA } #GUA
+#add_to_war = { targeted_alliance = H01 enemy = HON } #HON
+#add_to_war = { targeted_alliance = H01 enemy = IRQ } #IRQ
+#add_to_war = { targeted_alliance = H01 enemy = JAP } #JAP
+#add_to_war = { targeted_alliance = H01 enemy = KOR } #KOR
+#add_to_war = { targeted_alliance = H01 enemy = LIB } #LIB
+#add_to_war = { targeted_alliance = H01 enemy = MEX } #MEX
+#add_to_war = { targeted_alliance = H01 enemy = MEN } #MEN
+#add_to_war = { targeted_alliance = H01 enemy = NEP } #NEP
+#add_to_war = { targeted_alliance = H01 enemy = NIC } #NIC
+#add_to_war = { targeted_alliance = H01 enemy = NZL } #NZL
+#add_to_war = { targeted_alliance = H01 enemy = PAN } #PAN
+#add_to_war = { targeted_alliance = H01 enemy = PER } #PER
+#add_to_war = { targeted_alliance = H01 enemy = PHI } #PHI
+#add_to_war = { targeted_alliance = H01 enemy = PRU } #PRU
+#add_to_war = { targeted_alliance = H01 enemy = SAF } #SAF
+#add_to_war = { targeted_alliance = H01 enemy = SAU } #SAU
+#add_to_war = { targeted_alliance = H01 enemy = SIA } #SIA
+#add_to_war = { targeted_alliance = H01 enemy = SIK } #SIK
+#add_to_war = { targeted_alliance = H01 enemy = TIB } #TIB
+#add_to_war = { targeted_alliance = H01 enemy = URG } #URG
+#add_to_war = { targeted_alliance = H01 enemy = VEN } #VEN
+#add_to_war = { targeted_alliance = H01 enemy = YUN } #YUN
+#add_to_war = { targeted_alliance = H01 enemy = USA } #USA
+#add_to_war = { targeted_alliance = H01 enemy = MON } #MON
+#add_to_war = { targeted_alliance = H01 enemy = TAN } #TAN
+#add_to_war = { targeted_alliance = H01 enemy = PAR } #PAR
+#add_to_war = { targeted_alliance = H01 enemy = CUB } #CUB
+#add_to_war = { targeted_alliance = H01 enemy = DOM } #DOM
+#add_to_war = { targeted_alliance = H01 enemy = HAI } #HAI
+#add_to_war = { targeted_alliance = H01 enemy = YEM } #YEM
+#add_to_war = { targeted_alliance = H01 enemy = OMA } #OMA
+#add_to_war = { targeted_alliance = H01 enemy = SLO } #SLO
+#add_to_war = { targeted_alliance = H01 enemy = RAJ } #RAJ
+#add_to_war = { targeted_alliance = H01 enemy = CRO } #CRO
+#add_to_war = { targeted_alliance = H01 enemy = GXC } #GXC
+#add_to_war = { targeted_alliance = H01 enemy = PRC } #PRC
+#add_to_war = { targeted_alliance = H01 enemy = ICE } #ICE
+#add_to_war = { targeted_alliance = H01 enemy = U01 } #U01
+#add_to_war = { targeted_alliance = H01 enemy = U04 } #U04
+
+
+######################################
+# BETA戦争関連　ここまで
+######################################
+
+create_country_leader = {
+	name = "BETA_頭脳級"
+	#desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "leader_unknown.dds"
+	expire = "2100.12.31"
+	ideology = beta
+	traits = {
+		dictator
+	}
+}
+
+add_namespace = {
+	name = "h18_unit_leader"
+	type = unit_leader
+}
+
+create_field_marshal = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "BETA"
+	picture = "leader_unknown.dds"
+	traits = {  }
+	skill = 4
+}

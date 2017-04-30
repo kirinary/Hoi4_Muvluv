@@ -1,0 +1,27 @@
+
+state={
+	id=503
+	name="STATE_503"
+	manpower = 1922700
+	
+	state_category = rural
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+		}
+		add_core_of = BRA
+		
+		1998.1.1 = {
+			owner = U08
+			add_core_of = U08
+			remove_core_of = BRA
+		}
+	}
+
+	provinces={
+		1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 
+	}
+}

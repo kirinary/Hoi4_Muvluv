@@ -1,0 +1,58 @@
+
+state={
+	id=568
+	name="STATE_568" # Krasnoyarsk
+	manpower = 1726427
+	
+	state_category = town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4724 1 
+		}
+		add_core_of = SOV
+		
+		1998.1.1 = {
+			owner = H15
+			add_core_of = H15
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 15
+				arms_factory = 15
+				
+				4724 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					568 = { 
+							is_owned_by = H15
+					 }
+				}
+				 568 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 568 } 
+					 	add_resource = { type = oil amount = 200 state = 568 } 
+					 	add_resource = { type = chromium amount = 200 state = 568 } 
+					 	add_resource = { type = steel amount = 200 state = 568 } 
+					 	add_resource = { type = tungsten amount = 200 state = 568 } 
+					 	add_resource = { type = rubber amount = 200 state = 568 } 
+				}
+			}
+			victory_points = {
+				4724 20
+			}
+		}
+	}
+
+	provinces={
+		1777 1850 4690 4711 4724 4782 4818 4853 7744 7815 10639 10712 12563 12621 12628 12691 
+	}
+}

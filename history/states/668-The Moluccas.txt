@@ -1,0 +1,40 @@
+
+state={
+	id=668
+	name="STATE_668"
+	manpower = 579100
+	
+	state_category = pastoral
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 3
+			1574 = {
+				naval_base = 1
+			}
+			1351 = {
+				naval_base = 1
+			}
+			7413 = {
+				naval_base = 1
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U04
+			add_core_of = U04
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+			}
+		}
+	}
+
+	provinces={
+		1351 1419 1437 1574 7369 7413 7557 10141 10342 10409 
+	}
+}

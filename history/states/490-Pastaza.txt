@@ -1,0 +1,28 @@
+
+state={
+	id=490
+	name="STATE_490"
+	manpower = 70020
+	
+	state_category = pastoral
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = PRU
+		
+		1998.1.1 = {
+			owner = U08
+			add_core_of = U08
+			remove_core_of = PRU
+		}
+	}
+
+	provinces={
+		8149 10942 
+	}
+}

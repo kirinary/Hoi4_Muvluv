@@ -1,0 +1,210 @@
+﻿capital = 275
+
+oob = "U01_1998"
+
+######################################
+# BETA戦争関連
+######################################
+
+1998.1.1 = {
+		add_to_war = { targeted_alliance = U02 enemy = H01 } #H01
+	}
+
+######################################
+# BETA戦争関連　ここまで
+######################################
+# Starting tech
+set_technology = {
+	###戦術機###
+	tsf_mc = 1
+	###########
+	
+	###陸軍###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	tech_support = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	
+	###航空機###
+	early_fighter = 1
+	cv_early_fighter = 1
+	fighter1 = 1
+	cv_fighter1 = 1
+	fighter2 = 1
+	cv_fighter2 = 1
+	CAS1 = 1
+	CAS2 = 1
+	cv_CAS1 = 1
+	cv_CAS2 = 1
+	naval_bomber1 = 1
+	naval_bomber2 = 1
+	cv_naval_bomber1 = 1
+	cv_naval_bomber2 = 1
+	
+	###船舶###
+	transport = 1
+	landing_craft = 1
+	
+	#doctrines
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	convoy_sailing = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_plant = 1
+	improved_oil_plant = 1
+	construction1 = 1
+	construction2 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+}
+
+add_political_power = 600
+set_research_slots = 3
+set_convoys = 120
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 1
+		}
+
+		fascism = {
+			popularity = 98
+		}
+		
+		communism = {
+			popularity = 1
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1998.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "J. B. M. Hertzog"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "2100.1.1"
+	ideology = fascism_ideology
+	traits = {
+		blitzkrieg_theorist air_air_combat_training_3
+	}
+}
+
+create_field_marshal = {
+	name = "山城上総"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { defensive_doctrine offensive_doctrine logistics_wizard fast_planner thorough_planner organisational_leader inspirational_leader }
+	skill = 9
+}
+
+create_corps_commander = {
+	name = "篁唯依"
+	portrait_path = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 9
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 5
+}
+
+create_corps_commander = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { trickster winter_specialist trait_engineer fortress_buster panzer_leader commando desert_fox swamp_fox  trait_mountaineer hill_fighter jungle_rat ranger naval_invader urban_assault_specialist naval_invader bearer_of_artillery }
+	skill = 6
+}
+
+create_navy_leader = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { old_guard_navy seawolf blockade_runner superior_tactician spotter fly_swatter ironside air_controller }
+	skill = 9
+}
+
+create_navy_leader = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { old_guard_navy seawolf blockade_runner superior_tactician spotter fly_swatter ironside air_controller }
+	skill = 9
+}
+
+create_navy_leader = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { old_guard_navy seawolf blockade_runner superior_tactician spotter fly_swatter ironside air_controller }
+	skill = 9
+}
+
+create_navy_leader = {
+	name = "Unknown"
+	picture = "gfx/leaders/H01/leader_unknown.dds"
+	traits = { old_guard_navy seawolf blockade_runner superior_tactician spotter fly_swatter ironside air_controller }
+	skill = 9
+}

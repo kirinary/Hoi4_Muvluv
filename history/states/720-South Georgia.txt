@@ -1,0 +1,34 @@
+state={
+	id=720
+	name="STATE_720"
+	manpower=30	
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			10995 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = ARG
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+			}
+		}
+	}
+	
+	provinces={
+		10995 
+	}
+}

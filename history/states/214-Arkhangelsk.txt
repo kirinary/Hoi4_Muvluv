@@ -1,0 +1,72 @@
+
+state={
+	id=214
+	name="STATE_214"
+	manpower = 1050883
+	
+	state_category = town
+
+	history={
+		owner = SOV
+		victory_points = {
+			3338 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			3338 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+		
+		1998.1.1 = {
+			owner = H04
+			add_core_of = H04
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 8
+				arms_factory = 14
+				
+				11074= {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					214 = { 
+							is_owned_by = H04
+					 }
+				}
+				214 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 214 } 
+					 	add_resource = { type = oil amount = 200 state = 214 } 
+					 	add_resource = { type = chromium amount = 200 state = 214 } 
+					 	add_resource = { type = steel amount = 200 state = 214 } 
+					 	add_resource = { type = tungsten amount = 200 state = 214 } 
+					 	add_resource = { type = rubber amount = 200 state = 214 } 
+				}
+			}
+			
+			victory_points = {
+				3338 5
+			}
+			victory_points = {
+				11074 10
+			}
+		}
+	}
+
+	provinces={
+		3 18 26 72 87 89 127 138 140 180 183 312 3031 3064 3065 3075 3080 3081 3086 3092 3130 3166 3168 3338 6034 6051 6075 6088 6100 6102 6105 6109 6166 6193 6199 9041 9101 9124 9130 9187 9213 9248 11038 11042 11061 11071 11074 11089 11137 11171 11178 
+	}
+}

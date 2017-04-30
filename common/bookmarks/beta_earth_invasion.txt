@@ -1,0 +1,39 @@
+bookmarks = {
+	bookmark = {
+		name = "BETA_EARTH_INVASION_NAME"
+		desc = "BETA_EARTH_INVASION_DESC"
+		date = 1973.1.1.1
+		picture = "GFX_select_date_1973"
+		default_country = "JAP"
+		
+		
+		JAP = {
+			history = JAP_BETA_EARTH_INVASION_DESC
+			ideology = fascism
+			ideas={
+				state_shintoism
+				the_long_lance
+				spiritual_mobilization_idea
+				warrior_traditions_idea
+				student_mobilization_idea
+				imperial_austerity_idea
+			}			
+		}
+		U01 = {
+			history = U01_BETA_EARTH_INVASION_DESC
+			ideology = democratic
+		}
+		U04 = {
+			history = U04_BETA_EARTH_INVASION_DESC
+			ideology = democratic
+		}
+		"---"={
+			history = "OTHER_BETA_EARTH_INVASION_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

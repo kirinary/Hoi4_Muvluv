@@ -1,0 +1,68 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_unit_tsf_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_tsf_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_tsf_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_tsf_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_tsf_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/onmap_unit_tsf_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_tsf_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/onmap_unit_tsf_icon.dds"
+		noOfFrames = 2
+	}
+	
+	SpriteType = {
+		name = "GFX_unit_saff_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_saff_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_saff_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_saff_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_saff_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/onmap_unit_saff_icon.dds"
+		noOfFrames = 2
+	}
+
+	SpriteType = {
+		name = "GFX_unit_saff_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/onmap_unit_saff_icon.dds"
+		noOfFrames = 2
+	}
+		
+		spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-R_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/TSF-Imperial-Royal-Guard-R_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-F_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/TSF-Imperial-Royal-Guard-F_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-A_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/TSF-Imperial-Royal-Guard-A_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-C_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/TSF-Imperial-Royal-Guard-C_icon.dds" noOfFrames = 2 }
+	
+		spriteType = { name = "GFX_unit_beta_tank_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/beta_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_beta_fort_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/beta_fort_icon.dds" noOfFrames = 2 }
+	
+		spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-R_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-F_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-A_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-C_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
+	
+	
+		spriteType = { name = "GFX_unit_beta_tank_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/beta_tank_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_beta_fort_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/beta_fort_icon.dds" noOfFrames = 2 }
+	
+}

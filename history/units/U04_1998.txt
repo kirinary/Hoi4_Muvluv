@@ -1,0 +1,557 @@
+﻿division_template = {
+	name = "Indian Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "TSF Division"
+	# All districts are at reserve levels; have older equipment, low experience
+	regiments = {
+		tsf = { x = 0 y = 0 }
+		tsf = { x = 0 y = 1 }
+		tsf = { x = 0 y = 2 }
+		tsf = { x = 1 y = 0 }
+		tsf = { x = 1 y = 1 }
+		tsf = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	#India Command
+	
+	#Northern Command
+	
+	division= {	
+		name = "Pashawar District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Pashawar District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Pashawar District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Pashawar District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Kohat District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Rawalpindi District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Lahore District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Waziristan District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	
+	#Eastern Command
+	division= {	
+		name = "Meerut District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Lucknow District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Presidency & Assam District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	
+	#Southern Command
+	division= {	
+		name = "Deccan District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Bombay District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Madras District"
+		location = 12299
+		division_template = "Indian Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 12299 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 4126 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 11977 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 11977 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 11977 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 11977 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 11977 
+		division_template = "TSF Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+}
+
+#air_wings = {
+#	### AHQ India
+#	12299 = { 
+#		### AHQ India -- Fairey Gordons, Battles
+#		CAS_equipment_1 = {
+#			owner = "U04" 
+#			amount = 120
+#		}
+#	}
+#}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "U04"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

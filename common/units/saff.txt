@@ -1,0 +1,69 @@
+sub_units = {
+	###戦略航空機動要塞
+	saff = { 
+		sprite = infantry
+		map_icon_category = armored
+
+		priority = 2200
+		ai_priority = 1400
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_saff
+		}
+		
+		combat_width = 30
+		
+		#Size Definitions
+		max_strength = 200
+		max_organisation = 300
+		default_morale = 1.0
+		manpower = 2
+
+		#Misc Abilities
+		training_time = 360
+		suppression = 50
+		weight = 30
+		
+		supply_consumption = 1.2
+		can_be_parachuted = yes
+	
+		need = {
+			saff_equipment = 1
+		}
+		
+		plains = {
+			attack = 1.0
+			defence = 1.0
+		}
+		
+		forest = {
+			attack = 1.0
+			defence = 1.0
+		}
+		hills = {
+			attack = 0.8
+			defence = 0.8
+		}
+		
+		desert = {
+			attack = 1.0
+			defence = 1.0
+		}
+		
+		mountain = {
+			attack = 0.8
+			defence = 0.8
+		}
+	}
+}

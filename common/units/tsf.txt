@@ -1,0 +1,75 @@
+sub_units = {
+	###日本帝国用
+	###帝国陸軍
+	tsf = { 
+		sprite = infantry
+		map_icon_category = armored
+
+		priority = 2000
+		ai_priority = 1500
+		active = no
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_tsf
+		}
+		
+		combat_width = 6
+		
+		#Size Definitions
+		max_strength = 30
+		max_organisation = 80
+		default_morale = 0.8
+		manpower = 36
+
+		#Misc Abilities
+		training_time = 180
+		suppression = 8
+		weight = 1.8
+		
+		supply_consumption = 0.08
+		can_be_parachuted = yes
+	
+		need = {
+			tsf_equipment = 12
+		}
+		
+		plains = {
+			attack = 0.3
+			defence = 0.2
+			movement = 0.2
+		}
+		
+		forest = {
+			attack = 0.3
+			defence = 0.2
+			movement = 0.1
+		}
+		hills = {
+			attack = 0.3
+			defence = 0.2
+			defence = 0.1
+		}
+		
+		desert = {
+			attack = 0.3
+			defence = 0.2
+			movement = 0.05
+		}
+		
+		mountain = {
+			attack = 0.3
+			defence = 0.2
+			defence = 0.2
+		}
+	}
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 744000
+	
+	
+	state_category = rural
+	
+	resources={
+		steel=20
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			9945 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12100 = {
+				naval_base = 3
+			}
+		}
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+			}
+		}
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+}

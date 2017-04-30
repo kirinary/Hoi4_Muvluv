@@ -1,0 +1,50 @@
+﻿l_english:
+ FACTION_LEADER:0 "陣営の盟主: §Y$COUNTRY$§!"
+ FACTION_MEMBER:0 "陣営の構成国: §Y$COUNTRY$§!"
+ FACTION_NAME_GER_fascism:0 "枢軸国"
+ FACTION_NAME_GER_none:0 "枢軸国"
+ FACTION_NAME_IDEOLOGY_DEFAULT:0 "$IDEOLOGY$の支援国"
+ french_alliance:0 "フランス連合"
+ the_berlin_moscow_axis:0 "ベルリン＝モスクワ枢軸"
+ domination_francaise:0 "ドミナシオン・フランセーズ"
+ french_entente_alliance:0 "フランス協商連合"
+ daitoa_kyoeiken:0 "大東亜共栄圏"
+ italy_empire_faction:0 "新ローマ帝国"
+ chinese_united_front:0 "中華統一戦線"
+ miedzymorze_faction:0 "ミェンズィモジェ連合"
+ Allies:0 "連合国"
+ Axis:0 "枢軸国"
+ Comintern:0 "コミンテルン"
+ Beta:0 "BETA"
+ Human:0 "人類"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

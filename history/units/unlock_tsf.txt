@@ -1,0 +1,12 @@
+﻿division_template = {
+	name = "TSF Division"
+
+	regiments = {
+		tsf = { x = 0 y = 0 }
+		tsf = { x = 0 y = 1 }
+		tsf = { x = 0 y = 2 }
+		tsf = { x = 1 y = 0 }
+		tsf = { x = 1 y = 1 }
+		tsf = { x = 1 y = 2 }
+	}
+}

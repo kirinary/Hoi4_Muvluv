@@ -1,0 +1,101 @@
+equipments = {
+	###日本帝国用
+	###帝国陸軍
+	 tsf_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		#Misc Abilities
+		reliability = 0.7
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 30
+		breakthrough = 4
+		hardness = 1.0
+		armor_value = 22
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 42
+		ap_attack = 18
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 16
+		resources = {
+			steel = 1
+		}
+	}
+	
+	###撃震
+	tsf_equipment_0 = {
+		archetype =  tsf_equipment
+		priority = 30
+		visual_level = 0
+	}
+	
+	###陽炎
+	tsf_equipment_1 = {
+		archetype =  tsf_equipment
+		parent = tsf_equipment_0
+		priority = 30
+		
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 13
+
+		#Defensive Abilities
+		defense = 32
+		breakthrough = 4
+		hardness = 1.0
+		armor_value = 24
+
+		#Offensive Abilities
+		soft_attack = 46
+		hard_attack = 48
+		ap_attack = 18
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 18
+		visual_level = 1
+	}
+
+	###不知火
+	tsf_equipment_2 = {
+		archetype =  tsf_equipment
+		parent = tsf_equipment_1
+		priority = 30
+		
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 16
+
+		#Defensive Abilities
+		defense = 34
+		breakthrough = 4
+		hardness = 1.0
+		armor_value = 24
+
+		#Offensive Abilities
+		soft_attack = 56
+		hard_attack = 60
+		ap_attack = 20
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 6
+		
+		build_cost_ic = 20
+		visual_level = 1
+	}
+}

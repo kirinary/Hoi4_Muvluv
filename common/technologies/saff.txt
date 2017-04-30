@@ -1,0 +1,406 @@
+technologies = {
+
+	saff_mc = {
+
+		enable_equipments = {
+			saff_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = saff_weapons1
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = saff_armors1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1920
+		
+		folder = {
+			name = saff_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = saff
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_saff"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1921.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1922.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1923.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_weapons1 = {
+		
+		saff = {
+			soft_attack = 0.05
+			air_attack = 0.05
+			ap_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = saff_improved_mc
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1922
+		
+		folder = {
+			name = saff_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1922.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1923.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1924.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_improved_mc = {
+
+		enable_equipments = {
+			saff_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = saff_weapons2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1923
+		folder = {
+			name = saff_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				date > "1922.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1924.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1925.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1926.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_weapons2 = {
+		
+		saff = {
+			soft_attack = 0.05
+			air_attack = 0.05
+			ap_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = saff_advanced_mc
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1924
+		
+		folder = {
+			name = saff_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				date > "1923.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1925.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1926.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1927.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_advanced_mc = {
+
+		enable_equipments = {
+			saff_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = saff_weapons3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = saff_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1926.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1927.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1928.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_armors1 = {
+		
+		saff = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = saff_armors2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1922
+		
+		folder = {
+			name = saff_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1922.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1923.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1924.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_armors2 = {
+		
+		saff = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	
+		path = {
+			leads_to_tech = saff_armors3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1924
+		
+		folder = {
+			name = saff_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+				date > "1923.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1925.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1926.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1927.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	saff_armors3 = {
+		
+		saff = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		research_cost = 2
+		start_year = 1926
+		
+		folder = {
+			name = saff_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1927.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1928.1.1"
+			}
+			
+			modifier = {
+				factor = 1.1
+				date > "1929.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+}

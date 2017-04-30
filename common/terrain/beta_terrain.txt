@@ -1,0 +1,35 @@
+
+##################################################################
+### Terrain Categories
+###
+###
+
+categories =  {
+
+	hive = {
+		color = { 0 0 0 }
+		movement_cost = 1.5
+		ai_terrain_importance_factor = 4.0
+		sound_type = plains
+
+		units = {
+			attack = -0.5
+			movement = -0.2
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.80
+	}
+
+}
+	
+
+
+##################################################################
+### Graphical terrain
+###		type	=	refers to the terrain defined above, "terrain category"'s 
+### 	color 	= 	index in bitmap color table (see terrain.bmp)
+###
+
+terrain = {
+	hive_1			= { type = hive			color = { 	23	 } texture = 13 spawn_city = yes } #ハイヴ
+}

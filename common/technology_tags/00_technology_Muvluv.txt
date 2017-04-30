@@ -1,0 +1,15 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+#	beta_infantry_weapons
+#	tsf
+#	TSF-Imperial-Army 
+#	TSF-Imperial-Royal-Guard
+}
+
+technology_folders = {
+	tsf_folder
+	saff_folder
+#	beta_folder
+}

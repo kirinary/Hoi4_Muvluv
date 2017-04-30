@@ -1,0 +1,70 @@
+equipments = {
+	###戦略航空機動要塞
+	 saff_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 300
+		breakthrough = 20
+		hardness = 1.0
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 500
+		hard_attack = 500
+		ap_attack = 100
+		air_attack = 100
+
+		#Space taken in convoy
+		lend_lease_cost = 300
+		
+		build_cost_ic = 60
+		resources = {
+			steel = 5
+		}
+	}
+	
+	###XG-70b 凄乃皇・弐型
+	saff_equipment_0 = {
+		archetype =  saff_equipment
+		priority = 30
+		visual_level = 0
+	}
+	
+	###XG-70d 凄乃皇・四型
+	saff_equipment_1 = {
+		archetype =  saff_equipment
+		parent = saff_equipment_0
+		priority = 30
+		
+		#Defensive Abilities
+		defense = 350
+		breakthrough = 25
+		armor_value = 60
+
+		#Offensive Abilities
+		soft_attack = 550
+		hard_attack = 550
+		ap_attack = 120
+		air_attack = 120
+
+		#Space taken in convoy
+		lend_lease_cost = 350
+		
+		build_cost_ic = 70
+		resources = {
+			steel = 10
+		}
+		
+		visual_level = 1
+	}
+}

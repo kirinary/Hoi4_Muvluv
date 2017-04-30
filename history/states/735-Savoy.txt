@@ -1,0 +1,42 @@
+state={
+	id=735
+	name="STATE_735"
+
+	state_category = town
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			778 1 
+		}
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+			}		
+		}
+		
+		1998.1.1 = {
+			owner = H12
+			add_core_of = H12
+			remove_core_of = FRA
+			if = {
+				limit = { 
+					14 = { 
+							is_owned_by = H12
+					 }
+				}
+			}
+		}
+	}
+
+	provinces={
+		764 778 3764 3959 3961 6609 6975 9603 9736 9745 9909 11573 
+	}
+	manpower=907500
+	buildings_max_level_factor=1.000
+}

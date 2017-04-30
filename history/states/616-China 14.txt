@@ -1,0 +1,57 @@
+
+state={
+	id=616
+	name="STATE_616" # Ningxia
+	manpower = 4077600
+
+	state_category = pastoral
+
+	history={
+		owner = PRC
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+
+		1998.1.1 = {
+			owner = H14
+			add_core_of = H14
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 15
+				arms_factory = 15
+				
+				12820 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					616 = { 
+							is_owned_by = H14
+					 }
+				}
+				 616 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 616 } 
+					 	add_resource = { type = oil amount = 200 state = 616 } 
+					 	add_resource = { type = chromium amount = 200 state = 616 } 
+					 	add_resource = { type = steel amount = 200 state = 616 } 
+					 	add_resource = { type = tungsten amount = 200 state = 616 } 
+					 	add_resource = { type = rubber amount = 200 state = 616 } 
+				}
+			}
+			victory_points = {
+				12820 20
+			}
+		}
+	}
+
+	provinces={
+		1778 2028 3742 4783 5031 5057 5076 5100 7511 7727 7803 7971 8055 8081 8102 8127 10724 10770 10899 12327 12596 12750 12776 12820 
+	}
+}

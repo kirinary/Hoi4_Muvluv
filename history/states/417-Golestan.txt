@@ -1,0 +1,25 @@
+
+state={
+	id=417
+	name="STATE_417" # Hamadan
+	manpower = 796396
+	state_category = rural
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+		
+		1998.1.1 = {
+			owner = H02
+			add_core_of = H02
+			remove_core_of = PER
+		}
+	}
+
+	provinces={
+		1982 2065 8040 8125 10922 
+	}
+}

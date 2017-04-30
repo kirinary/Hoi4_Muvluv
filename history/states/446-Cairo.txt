@@ -1,0 +1,68 @@
+state=
+{
+	id=446
+	name="STATE_446"
+	manpower = 6586596
+	
+	state_category = town
+
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+		}
+		
+		victory_points = {
+			7011 5
+		}
+
+		add_core_of = EGY
+		
+		1998.1.1 = {
+			owner = U01
+			add_core_of = U01
+			
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				arms_factory = 1
+				anti_air_building = 1
+				air_base = 6
+				
+				7011 = {
+					bunker = 5
+				}
+				12049 = {
+					bunker = 10
+				}
+				4073 = {
+					bunker = 10
+				}
+			}
+			
+			
+			if = {
+				limit = { 
+					446 = { 
+							is_owned_by = U01
+					 }
+				}
+				446 = { 	add_manpower = 10000
+					 	add_resource = { type = aluminium amount = 50 state = 446 } 
+					 	add_resource = { type = oil amount = 50 state = 446 } 
+					 	add_resource = { type = chromium amount = 50 state = 446 } 
+					 	add_resource = { type = steel amount = 50 state = 446 } 
+					 	add_resource = { type = tungsten amount = 50 state = 446 } 
+					 	add_resource = { type = rubber amount = 50 state = 446 } 
+				}
+			}
+		}
+	}
+
+	provinces={
+		1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049  
+	}
+}

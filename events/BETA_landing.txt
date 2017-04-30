@@ -1,0 +1,262 @@
+﻿###########################
+# beta_landing Events
+###########################
+
+add_namespace = beta_landing
+
+###九州上陸イベント###
+country_event = {
+	id = beta_landing.1
+	title = beta_landing.1.t
+	desc = beta_landing.1.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1998.1.3
+		date < 1998.1.6
+		
+		if = {
+			NOT = {
+				 528 = { is_core_of = H16 } 
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beta_landing.1.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			528 = { 
+					add_core_of = H16
+
+			}
+			529 = { 
+					add_core_of = H16
+
+			}
+			530 = { 
+					add_core_of = H16
+
+			}
+			531 = { 
+					add_core_of = H16
+
+			}
+		}
+	}
+}
+
+country_event = {
+	id = beta_landing.2
+	title = beta_landing.2.t
+	desc = beta_landing.2.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = no
+	
+	trigger = {
+		date > 1998.1.8
+		TAG = H16
+		
+		IF = {
+			 528 = {
+			 	 is_core_of = H16
+	     	 }
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = beta_landing.2.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			IF = {
+				limit =  {
+					 NOT = { has_global_flag = beta_landing_kyushu}
+				}
+				
+				set_global_flag = beta_landing_kyushu
+				H16 = {load_oob = "BETA_landing_Kyushu"}
+				JAP = { country_event = { id = japan.30 } }
+
+			}
+		}
+	}
+}
+
+###九州上陸フラグ初期化イベント###
+country_event = {
+	id = beta_landing.3
+	title = beta_landing.3.t
+	desc = beta_landing.3.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = no
+	
+	trigger = {
+		date > 1998.1.8
+		TAG = H16
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = beta_landing.3.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			IF = {
+				limit =  {
+					 has_global_flag = beta_landing_kyushu
+				}
+				
+				clr_global_flag = beta_landing_kyushu
+			}
+		}
+	}
+}
+
+###ドーバー(リヨン）上陸イベント###
+country_event = {
+	id = beta_landing.4
+	title = beta_landing.4.t
+	desc = beta_landing.4.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1998.1.3
+		date < 1998.1.6
+		
+		if = {
+			NOT = {
+				 127 = { is_core_of = H12 } 
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beta_landing.4.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			127 = { 
+					add_core_of = H12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = beta_landing.5
+	title = beta_landing.5.t
+	desc = beta_landing.5.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = no
+	
+	trigger = {
+		date > 1998.1.10
+		TAG = H12
+		
+		IF = {
+			 127 = {
+			 	 is_core_of = H12
+	     	 }
+	    }
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = beta_landing.5.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			IF = {
+				limit =  {
+					 NOT = { has_global_flag = beta_landing_dover}
+				}
+				
+				set_global_flag = beta_landing_dover
+				H12 = {load_oob = "BETA_landing_Dover"}
+				
+			}
+			
+			
+		}
+		U02 = { country_event = { id = eu.5 } }
+	}
+}
+
+###ドーバー上陸フラグ初期化イベント###
+country_event = {
+	id = beta_landing.6
+	title = beta_landing.6.t
+	desc = beta_landing.6.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	fire_only_once = no
+	
+	trigger = {
+		date > 1998.1.8
+		TAG = H16
+	}
+
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	option = {
+		name = beta_landing.6.a
+		
+		ai_chance = { 
+			factor = 100
+		}
+		
+		hidden_effect = {
+			IF = {
+				limit =  {
+					 has_global_flag = beta_landing_dover
+				}
+				
+				clr_global_flag = beta_landing_dover
+			}
+		}
+	}
+}

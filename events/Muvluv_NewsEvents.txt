@@ -1,0 +1,51 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = muvluv_news
+
+### ハイヴ建設（
+news_event = {
+	id = muvluv_news.1
+	title = muvluv_news.1.t
+	desc = muvluv_news.1.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.1.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.2
+	title = muvluv_news.2.t
+	desc = muvluv_news.2.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.2.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.3
+	title = muvluv_news.3.t
+	desc = muvluv_news.3.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.3.a
+	}
+}

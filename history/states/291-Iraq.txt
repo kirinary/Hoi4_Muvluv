@@ -1,0 +1,72 @@
+
+state={
+	id=291
+	name="STATE_291"
+	manpower = 2044165
+	
+	state_category = town
+	
+	resources={
+		oil=22
+	}
+
+	history={
+		owner = IRQ
+		victory_points = {
+			2097 5
+		}
+		victory_points = {
+			2089 1 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 4
+			2089 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = IRQ
+		
+		1998.1.1 = {
+			owner = H09
+			add_core_of = H09
+			
+			buildings = {
+				infrastructure = 8
+				industrial_complex = 8
+				arms_factory = 14
+				
+				12046 = {
+					bunker = 5
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					291 = { 
+							is_owned_by = H09
+					 }
+				}
+				291 = { 	add_manpower = 300000000
+					 	add_resource = { type = aluminium amount = 200 state = 291 } 
+					 	add_resource = { type = oil amount = 200 state = 291 } 
+					 	add_resource = { type = chromium amount = 200 state = 291 } 
+					 	add_resource = { type = steel amount = 200 state = 291 } 
+					 	add_resource = { type = tungsten amount = 200 state = 291 } 
+					 	add_resource = { type = rubber amount = 200 state = 291 } 
+				}
+			}
+			
+			victory_points = {
+				12046 20
+			}
+		}
+	}
+
+	provinces={
+		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855 
+	}
+}
