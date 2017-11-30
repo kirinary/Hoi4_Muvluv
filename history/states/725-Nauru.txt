@@ -15,6 +15,10 @@ state={
 		victory_points = {
 			13038 1 
 		}
+		1973.1.1 = {
+			owner = U02
+		}
+		
 		1998.1.1 = {
 			owner = U02
 		}

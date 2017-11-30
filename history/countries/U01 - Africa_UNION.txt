@@ -15,8 +15,12 @@ oob = "U01_1998"
 ######################################
 # Starting tech
 set_technology = {
-	###戦術機###
+	###Muvluv用###
+	tsf_basic_research = 1
 	tsf_mc = 1
+	tsf_mc1 = 1
+	tsf_mc2 = 1
+	tsf_mc3 = 1
 	###########
 	
 	###陸軍###
@@ -25,6 +29,7 @@ set_technology = {
 	infantry_weapons2 = 1
 	support_weapons = 1
 	support_weapons2 = 1
+	gwtank = 1
 	gw_artillery = 1
 	interwar_artillery = 1
 	artillery1 = 1
@@ -60,8 +65,11 @@ set_technology = {
 	
 	#doctrines
 	air_superiority = 1
-	grand_battle_plan = 1
-	trench_warfare = 1
+	superior_firepower = 1
+	sup_delay = 1
+	mobile_defence = 1
+	intergrated_support = 1
+	regimental_combat_teams = 1
 	fleet_in_being = 1
 	battlefleet_concentration = 1
 	convoy_sailing = 1

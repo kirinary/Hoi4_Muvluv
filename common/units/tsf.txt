@@ -1,12 +1,10 @@
 sub_units = {
-	###日本帝国用
-	###帝国陸軍
 	tsf = { 
 		sprite = infantry
 		map_icon_category = armored
 
 		priority = 2000
-		ai_priority = 1500
+		ai_priority = 3000
 		active = no
 
 		type = {
@@ -23,17 +21,18 @@ sub_units = {
 			category_tsf
 		}
 		
-		combat_width = 6
+		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 30
+		max_strength = 45
 		max_organisation = 80
 		default_morale = 0.8
-		manpower = 36
+		manpower = 12
+		recon = 1
 
 		#Misc Abilities
 		training_time = 180
-		suppression = 8
+		suppression = 10
 		weight = 1.8
 		
 		supply_consumption = 0.08
@@ -57,7 +56,6 @@ sub_units = {
 		hills = {
 			attack = 0.3
 			defence = 0.2
-			defence = 0.1
 		}
 		
 		desert = {
@@ -69,7 +67,12 @@ sub_units = {
 		mountain = {
 			attack = 0.3
 			defence = 0.2
-			defence = 0.2
+		}
+		
+		hive = {
+			attack = -0.2
+			defence = -0.1
+			movement = -0.5
 		}
 	}
 }

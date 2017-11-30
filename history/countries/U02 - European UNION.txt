@@ -1,158 +1,330 @@
 ﻿capital = 126
 
-1998.1.1 = {
-oob = "U02_1998"
+1973.1.1 = {
+oob = "U02_1973"
+
+add_political_power = 600
 
 set_research_slots = 4
 
 set_national_unity = 0.7
+	
+	
+	add_ideas = {
+		human_group
+	}
 
-# Starting tech
-set_technology = {
-		###戦術機###
-		tsf_mc = 1
-		###########
-		infantry_weapons = 1
-		tech_support = 1
-		early_fighter = 1
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		heavy_fighter2 = 1
-		CAS1 = 1
-		CAS2 = 1
-		naval_bomber1 = 1
-		naval_bomber2 = 1
-		tactical_bomber1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_CAS1 = 1
-		cv_early_fighter = 1
-		cv_naval_bomber1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		early_submarine = 1
-		basic_submarine = 1
-		improved_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		improved_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		improved_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battlecruiser = 1
-		basic_battlecruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_carrier = 1
-		basic_carrier = 1
-		improved_carrier = 1
+	######################################
+	# 連合軍（同盟参加込）
+	######################################
 
-		#doctrines
-		#Air
-		air_superiority = 1
-		home_defence = 1
-		naval_strike_tactics = 1
+	create_faction = Human
 
-		grand_battle_plan = 1
+	#add_to_faction = U01
+	#add_to_faction = U02
+	#add_to_faction = U04
+	#add_to_faction = U06
+	#add_to_faction = U08
+	add_to_faction = USA
+	add_to_faction = AST
+	add_to_faction = CAN
+	add_to_faction = JAP
+	add_to_faction = NZL
+	add_to_faction = SOV
 
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		convoy_escorts = 1
-		submarine_operations = 1
+	######################################
+	# BETA戦争関連
+	######################################
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
+	#declare_war_on = {  target = H01  type = annex_everything }         #H01
 
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-}
+	######################################
+	# BETA戦争関連　ここまで
+	######################################
 
-set_convoys = 800
+	# Starting tech
+	set_technology = {
+			infantry_weapons = 1
+			tech_support = 1
+			early_fighter = 1
+			fighter1 = 1
+			fighter2 = 1
+			heavy_fighter1 = 1
+			heavy_fighter2 = 1
+			CAS1 = 1
+			CAS2 = 1
+			naval_bomber1 = 1
+			naval_bomber2 = 1
+			tactical_bomber1 = 1
+			tactical_bomber2 = 1
+			strategic_bomber1 = 1
+			cv_CAS1 = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			gwtank = 1
+			improved_light_tank = 1
+			basic_medium_tank = 1
+			basic_heavy_tank = 1
+			gw_artillery = 1
+			interwar_artillery = 1
+			interwar_antitank = 1
+			infantry_weapons2 = 1
+			support_weapons = 1
+			support_weapons2 = 1
+			early_submarine = 1
+			basic_submarine = 1
+			improved_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			improved_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			improved_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battlecruiser = 1
+			basic_battlecruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			early_carrier = 1
+			basic_carrier = 1
+			improved_carrier = 1
 
-set_politics = {
+			#doctrines
+			#Air
+			air_superiority = 1
+			home_defence = 1
+			naval_strike_tactics = 1
+			
+			#land
+			superior_firepower = 1
+			sup_delay = 1
+			mobile_defence = 1
+			intergrated_support = 1
+			regimental_combat_teams = 1
+			
+			#Sea
+			battlefleet_concentration = 1
+			subsidiary_carrier_role = 1
+			convoy_sailing = 1
+			convoy_escorts = 1
+			submarine_operations = 1
 
-	parties = {
-		democratic = { 
-			popularity = 1
-		}
+			#electronics
+			electronic_mechanical_engineering = 1
+			radio = 1
+			radio_detection = 1
+			decimetric_radar = 1
+			mechanical_computing = 1
+			computing_machine = 1
 
-		fascism = {
-			popularity = 98
+			#industry
+			basic_machine_tools = 1
+			improved_machine_tools = 1
+			advanced_machine_tools = 1
+			synth_oil_experiments = 1
+			oil_plant = 1
+			improved_oil_plant = 1
+			construction1 = 1
+			construction2 = 1
+			construction3 = 1
+			dispersed_industry = 1
+
+	}
+
+	set_convoys = 800
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 1
+			}
+
+			fascism = {
+				popularity = 98
+			}
+			
+			communism = {
+				popularity = 1
+				#banned = no #default is no
+			}
 		}
 		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
+		ruling_party = fascism
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no ##suspended through duration of war, which is handled via event
 	}
+}
+
+1998.1.1 = {
+oob = "U02_1998"
+
+add_political_power = 600
+
+set_research_slots = 4
+
+set_national_unity = 0.7
 	
-	ruling_party = fascism
-	last_election = "1935.11.14"
-	election_frequency = 48
-	elections_allowed = no ##suspended through duration of war, which is handled via event
-}
+	
+	add_ideas = {
+			human_group
+	}
 
-add_ideas = {
-		human_group
-}
+	######################################
+	# 連合軍（同盟参加込）
+	######################################
 
-######################################
-# 連合軍（同盟参加込）
-######################################
+	create_faction = Human
 
-create_faction = Human
+	add_to_faction = U01
+	add_to_faction = U02
+	add_to_faction = U04
+	add_to_faction = U06
+	add_to_faction = U08
+	add_to_faction = USA
+	add_to_faction = AST
+	add_to_faction = CAN
+	add_to_faction = JAP
+	add_to_faction = NZL
+	add_to_faction = SOV
 
-add_to_faction = U01
-add_to_faction = U02
-add_to_faction = U04
-add_to_faction = U06
-add_to_faction = U08
-add_to_faction = USA
-add_to_faction = AST
-add_to_faction = CAN
-add_to_faction = JAP
-add_to_faction = NZL
-add_to_faction = SOV
+	######################################
+	# BETA戦争関連
+	######################################
 
-######################################
-# BETA戦争関連
-######################################
+	declare_war_on = {  target = H01  type = annex_everything }         #H01
 
-declare_war_on = {  target = H01  type = annex_everything }         #H01
+	######################################
+	# BETA戦争関連　ここまで
+	######################################
 
-######################################
-# BETA戦争関連　ここまで
-######################################
+	# Starting tech
+	set_technology = {
+			###戦術機###
+			tsf_basic_research = 1
+			tsf_mc = 1
+			tsf_mc1 = 1
+			tsf_mc2 = 1
+			tsf_mc3 = 1
+			tsf_mc4 = 1
+			###########
+			infantry_weapons = 1
+			tech_support = 1
+			early_fighter = 1
+			fighter1 = 1
+			fighter2 = 1
+			heavy_fighter1 = 1
+			heavy_fighter2 = 1
+			CAS1 = 1
+			CAS2 = 1
+			naval_bomber1 = 1
+			naval_bomber2 = 1
+			tactical_bomber1 = 1
+			tactical_bomber2 = 1
+			strategic_bomber1 = 1
+			cv_CAS1 = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			gwtank = 1
+			improved_light_tank = 1
+			basic_medium_tank = 1
+			basic_heavy_tank = 1
+			gw_artillery = 1
+			interwar_artillery = 1
+			interwar_antitank = 1
+			infantry_weapons2 = 1
+			support_weapons = 1
+			support_weapons2 = 1
+			early_submarine = 1
+			basic_submarine = 1
+			improved_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			improved_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			improved_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battlecruiser = 1
+			basic_battlecruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			early_carrier = 1
+			basic_carrier = 1
+			improved_carrier = 1
 
+			#doctrines
+			#Air
+			air_superiority = 1
+			home_defence = 1
+			naval_strike_tactics = 1
+			
+			#land
+			superior_firepower = 1
+			sup_delay = 1
+			mobile_defence = 1
+			intergrated_support = 1
+			regimental_combat_teams = 1
+			
+			#Sea
+			battlefleet_concentration = 1
+			subsidiary_carrier_role = 1
+			convoy_sailing = 1
+			convoy_escorts = 1
+			submarine_operations = 1
+
+			#electronics
+			electronic_mechanical_engineering = 1
+			radio = 1
+			radio_detection = 1
+			decimetric_radar = 1
+			mechanical_computing = 1
+			computing_machine = 1
+			basic_encryption = 1
+			basic_decryption = 1
+
+			#industry
+			basic_machine_tools = 1
+			improved_machine_tools = 1
+			advanced_machine_tools = 1
+			synth_oil_experiments = 1
+			oil_plant = 1
+			improved_oil_plant = 1
+			construction1 = 1
+			construction2 = 1
+			construction3 = 1
+			dispersed_industry = 1
+			dispersed_industry2 = 1
+			dispersed_industry3 = 1
+	}
+
+	set_convoys = 800
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 1
+			}
+
+			fascism = {
+				popularity = 98
+			}
+			
+			communism = {
+				popularity = 1
+				#banned = no #default is no
+			}
+		}
+		
+		ruling_party = fascism
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no ##suspended through duration of war, which is handled via event
+	}
 }
 
 # Order matters - here Chamberlain becomes starting leader
@@ -431,214 +603,4 @@ create_navy_leader = {
 		picture = "Portrait_Britain_Arthur_Power.dds"
 	traits = {  }
 	skill = 2
-}
-
-### Ship Variants ###
-
-#create_equipment_variant = {
-#	name = "O/P/R Class"
-#	type = submarine_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		sub_engine_upgrade = 1
-#		sub_stealth_upgrade = 1
-#		sub_torpedo_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "S Class"
-#	type = submarine_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		sub_engine_upgrade = 2
-#		sub_stealth_upgrade =2
-#		sub_torpedo_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "A/B/C/D Class"
-#	type = destroyer_1
-#	upgrades = {
-#		ship_torpedo_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_ASW_upgrade = 1
-#		ship_anti_air_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Tribal Class"
-#	type = destroyer_1
-#	upgrades = {
-#		ship_torpedo_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_ASW_upgrade = 2
-#		ship_anti_air_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Emerald Class"
-#	type = light_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_gun_upgrade = 1
-#		ship_anti_air_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Amphion Class"
-#	type = light_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_gun_upgrade = 2
-#		ship_anti_air_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Edinburgh Class"
-#	type = light_cruiser_2
-#	upgrades = {
-#		ship_reliability_upgrade = 3
-#		ship_engine_upgrade = 3
-#		ship_gun_upgrade = 3
-#		ship_anti_air_upgrade = 3
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "County Class"
-#	type = heavy_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_armor_upgrade = 2
-#		ship_gun_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Admiral Class"
-#	type = battle_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_armor_upgrade = 1
-#		ship_gun_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Nelson Class"
-#	type = battleship_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_armor_upgrade = 1
-#		ship_gun_upgrade = 1
-#	}
-#}
-
-### Variants ###
-# Submarines #
-create_equipment_variant = {
-	name = "O/P/R Class"
-	type = submarine_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 3
-		sub_engine_upgrade = 2
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 3
-	}
-}
-create_equipment_variant = {
-	name = "S Class"
-	type = submarine_1
-	parent_version = 1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		sub_engine_upgrade = 0
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 3
-	}
-}
-# Destroyers #
-create_equipment_variant = {
-	name = "A/B/C/D Class"
-	type = destroyer_1
-	parent_version = 0
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-# Light Cruisers #
-create_equipment_variant = {
-	name = "Emerald Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 3
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 3
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "Amphion Class"
-	type = light_cruiser_1
-	parent_version = 1
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 3
-		ship_gun_upgrade = 3
-		ship_anti_air_upgrade = 3
-	}
-}
-# Heavy Cruisers #
-create_equipment_variant = {
-	name = "County Class"
-	type = heavy_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 3
-		ship_armor_upgrade = 3
-		ship_gun_upgrade = 3
-	}
-}
-# Battlecruisers #
-create_equipment_variant = {
-	name = "Admiral Class"
-	type = battle_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 3
-		ship_gun_upgrade = 2
-	}
-}
-# Battleships #
-create_equipment_variant = {
-	name = "Nelson Class"
-	type = battleship_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 3
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 3
-		ship_gun_upgrade = 3
-	}
 }

@@ -31,13 +31,18 @@ state={
 			}
 			
 			buildings = {
-				infrastructure = 6
+				infrastructure = 8
 				air_base = 4
 				industrial_complex = 8
 				arms_factory = 10
 				
 				7855 = {
 					bunker = 5
+				}
+				
+				13091 = {
+					naval_base = 4
+
 				}
 				anti_air_building = 5
 			}

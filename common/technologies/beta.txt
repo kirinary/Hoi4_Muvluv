@@ -22,4 +22,23 @@ technologies = {
 			factor = 1
 		}
 	}
+	
+	beta_antiair_weapons = {
+
+		enable_equipments = {
+			beta_laser_equipment_1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1973
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
 }

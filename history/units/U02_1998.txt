@@ -23,17 +23,19 @@ division_template = {
 
 	regiments = {
 		medium_armor = { x = 0 y = 0 }		# Cruiser Tanks Mks I, II
-	           medium_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }		# Light Tanks Mk VI
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_armor = { x = 1 y = 2 }
-		light_armor = { x = 2 y = 0 }
-	  	light_armor = { x = 2 y = 1 }
-		light_armor = { x = 2 y = 2 }
+	    medium_armor = { x = 0 y = 1 }
+	    medium_armor = { x = 0 y = 2 }
+	    medium_armor = { x = 1 y = 0 }
+	    medium_armor = { x = 1 y = 1 }
+	    medium_armor = { x = 1 y = 2 }
+	    medium_armor = { x = 2 y = 0 }
+	    medium_armor = { x = 2 y = 1 }
+	    medium_armor = { x = 2 y = 2 }
 	}
 	support = {
-	 	recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
+	 	recon = { x = 0 y = 1 }
+	 	artillery = { x = 0 y = 2 }
 	}
 }
 
@@ -45,9 +47,6 @@ division_template = {
 		tsf = { x = 0 y = 0 }
 		tsf = { x = 0 y = 1 }
 		tsf = { x = 0 y = 2 }
-		tsf = { x = 1 y = 0 }
-		tsf = { x = 1 y = 1 }
-		tsf = { x = 1 y = 2 }
 	}
 }
 
@@ -330,7 +329,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 351
+		location = 11446
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -338,7 +337,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 351
+		location = 11446
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -346,7 +345,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 351
+		location = 11446
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -354,7 +353,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 351
+		location = 11446
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -362,7 +361,7 @@ units = {
 	}
 	division= {	
 		name = "Infantry Div."
-		location = 351
+		location = 11446
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -370,7 +369,7 @@ units = {
 	}
 	division= {	
 		name = "Infantry Div."
-		location = 351
+		location = 11446
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -378,7 +377,7 @@ units = {
 	}
 	division= {	
 		name = "Infantry Div."
-		location = 351
+		location = 11446
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -386,7 +385,7 @@ units = {
 	}
 	division= {	
 		name = "Infantry Div."
-		location = 351
+		location = 11446
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -394,7 +393,103 @@ units = {
 	}
 	division= {	
 		name = "Infantry Div."
-		location = 351
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
+		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "Infantry Div."
+		location = 11446
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -452,246 +547,6 @@ units = {
 		name = "Infantry Div."
 		location = 351
 		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Infantry Div."
-		location = 351
-		division_template = "Infantry Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division= {	
-		name = "Armour Div."
-		location = 351
-		division_template = "Armour Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -803,7 +658,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -811,7 +666,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -819,7 +674,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -827,7 +682,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -835,7 +690,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -843,7 +698,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -851,7 +706,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -859,7 +714,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -867,7 +722,7 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -875,7 +730,87 @@ units = {
 	}
 	division= {	
 		name = "TSF Division"
-		location = 4159
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
+		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		name = "TSF Division"
+		location = 3501
 		division_template = "TSF Division"		# Reserve division (older equipment, low experience)
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -1195,118 +1130,7 @@ units = {
 		ship = { name = "HMS Daring" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 version_name = "A/B/C/D Class" } } }	
 		ship = { name = "HMS Diamond" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 version_name = "A/B/C/D Class" } } }	
 		ship = { name = "HMS Diana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 version_name = "A/B/C/D Class" } } }			# to RCN as Margaree, 1940	
-	}				
-	navy = {				
-		name = "1st Submarine Flotilla"			
-		base = 4076 
-		location = 4076 # Alexandria
-		# Submarine Division 11
-		ship = { name = "HMS Sealion" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "S Class" } } }		
-		ship = { name = "HMS Shark" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "S Class" } } }		
-		ship = { name = "HMS Snapper" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "S Class" } } }	
-		ship = { name = "HMS Salmon" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "S Class" } } }		
-		ship = { name = "HMS Porpoise" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "S Class" } } }		
-		# Submarine Division 12
-		ship = { name = "HMS Otway" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Osiris" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Oswald" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }			
-	}				
-				
-	### NORTH AND SOUTH AMERICAS ###			
-	navy = {				
-		name = "America and West Indies Fleet"
-		base = 13010
-		location = 13010  # Bermuda
-		ship = { name = "HMS Berwick" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }
-		ship = { name = "HMS York" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }	
-		ship = { name = "HMS Orion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 version_name = "Emerald Class" } } }
-	}				
-	navy = {				
-		name = "South Atlantic Fleet"
-		base = 2038
-		location = 2038 # Sierra Leone
-		ship = { name = "HMS Neptune" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 version_name = "Emerald Class" } } }	
-		ship = { name = "HMS Dauntless" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-		# Destroyer Division 4
-		ship = { name = "HMS Vansittart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }	
-		ship = { name = "HMS Venomous" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }	
-		ship = { name = "HMS Wivern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }	
 	}
-	navy = {				
-		name = "South America Squadron"
-		base = 12960
-		location = 12960 # Falkland Is.
-		ship = { name = "HMS Exeter" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }		
-		ship = { name = "HMS Cumberland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }
-		ship = { name = "HMS Ajax" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 version_name = "Emerald Class" } } }	
-	}				
-	navy = {				
-		name = "3rd Submarine Flotilla"			
-		base = 2038 
-		location = 2038 # Sierra Leone
-		# Submarine Division 71
-		ship = { name = "HMS Severn" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }		
-		ship = { name = "HMS Clyde" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }		
-	}
-
-	### FAR EAST ###			
-	navy = {				
-		name = "East Indies Fleet"
-		base = 10201
-		location = 10201 # Trincomalee, Ceylon
-		ship = { name = "HMS Danae" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-		ship = { name = "HMS Durban" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-		ship = { name = "HMS Despatch" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-	}				
-	navy = {				
-		name = "China Fleet"
-		base = 10201
-		location = 10201 # Hong Kong			
-		ship = { name = "HMS Eagle" definition = carrier equipment = { carrier_1 = { amount = 1 owner = U02 } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "U02" amount = 18 }
-				cv_nav_bomber_equipment_1 =  { owner = "U02" amount = 18 }
-			}
-		}
-		ship = { name = "HMS Kent" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }	
-		ship = { name = "HMS Cornwall" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } } }	
-		ship = { name = "HMS Dorsetshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = U02 version_name = "County Class" } }	}
-		ship = { name = "HMS Caledon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-		ship = { name = "HMS Calypso" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 } } }
-		# Singapore & Hong Kong Division
-		ship = { name = "HMS Scout" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }		
-		ship = { name = "HMS Tenedos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }		
-		ship = { name = "HMS Thanet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }		
-		ship = { name = "HMS Thracian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }		
-	}				
-	navy = {				
-		name = "New Zealand Division"
-		base = 13056
-		location = 13056 # Fongfale	
-		ship = { name = "HMS Achilles" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 version_name = "Emerald Class" } } }		# to RNZN 1941
-		ship = { name = "HMS Leander" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = U02 version_name = "Emerald Class" } } }		# to RNZN 1941
-	}				
-	navy = {				
-		name = "4th Submarine Flotilla"			
-		base = 12299
-		location = 12299 # Singapore
-		ship = { name = "HMS Westcott" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = U02 } } }	
-		# Submarine Division 41
-		ship = { name = "HMS Olympus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }
-		ship = { name = "HMS Parthian" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Proteus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Regent" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Rover" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }		
-		# Submarine Division 42
-		ship = { name = "HMS Odin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Orpheus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }
-		ship = { name = "HMS Otus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Pandora" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }
-		ship = { name = "HMS Perseus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }		
-		ship = { name = "HMS Phoenix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }		
-		ship = { name = "HMS Rainbow" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Regulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = U02 version_name = "O/P/R Class" } } }	
-	}				
 }
 
 	####### Royal Air Force #######
@@ -1314,74 +1138,26 @@ units = {
 	##### RAF Fighter Command (CO: Dowding) #####
 	##### RAF Coastal Command (CO: Longmore) #####
 air_wings = {
-	129 = { 														# Middlesex
-		### No. 11 Fighter Command (CO: ) ###
-		fighter_equipment_1 = { owner = "U02" amount = 144 }			# I/No. 11 Fighter Group -- Hurricane I's
-		heavy_fighter_equipment_1 = { owner = "U02" amount = 96 }	# V/No. 11 Fighter Group -- Blenheim IF's
-	}
 	130 = { 														# York, Essex
 		### No. 11 Fighter Command ###
-		fighter_equipment_1 = { owner = "U02" amount = 72 }			# III/No. 11 Fighter Group -- Hurricane I's
-		fighter_equipment_2 = { owner = "U02" amount = 72 }			# IV/No. 11 Fighter Group -- Spitfire I's
+		fighter_equipment_1 = { owner = "U02" amount = 250 }			# III/No. 11 Fighter Group -- Hurricane I's
 		### No. 4 Bomber Command (CO: ) ###
-		tac_bomber_equipment_1 = { owner = "U02" amount = 96 }		# I/No. 4 Bomber Group -- Whitley II/V's
+		tac_bomber_equipment_1 = { owner = "U02" amount = 300 }		# I/No. 4 Bomber Group -- Whitley II/V's
 	}	
 	127 = { 														# Nottingham, Sussex
 		### No. 12 Fighter Command (CO: ) ###
-		fighter_equipment_1 = { owner = "U02" amount = 72 }			# I/No. 12 Fighter Group -- Hurricane I's
-		fighter_equipment_2 = { owner = "U02" amount = 96 }			# II/No. 12 Fighter Group -- Spitfire I's
-		heavy_fighter_equipment_1 = { owner = "U02" amount = 48 }	# III/No. 12 Fighter Group -- Blenheim IF's
-		### No. 16 Coastal Group (CO: ) ###
-		nav_bomber_equipment_1 = { owner = "U02" amount = 24 }		# No. 16 Coastal Group -- Vildebeests
+		fighter_equipment_1 = { owner = "U02" amount = 200 }			# I/No. 12 Fighter Group -- Hurricane I's
+		nav_bomber_equipment_1 = { owner = "U02" amount = 200 }		# No. 16 Coastal Group -- Vildebeests
 	}	
 	131 = { 														# Newcastle
 		### No. 13 Fighter Command (CO: ) ###
-		fighter_equipment_2 = { owner = "U02" amount = 96 }			# I/No. 13 Fighter Group -- Spitfire I's
-		heavy_fighter_equipment_1 = { owner = "U02" amount = 24 }	# II/No. 13 Fighter Group -- Blenheim IF's
+		fighter_equipment_2 = { owner = "U02" amount = 150 }			# I/No. 13 Fighter Group -- Spitfire I's
+		heavy_fighter_equipment_1 = { owner = "U02" amount = 100 }	# II/No. 13 Fighter Group -- Blenheim IF's
 	}
 	125 = { 														# East Anglia 
 		### Advanced Air Striking Force (CO: Barratt) -- en route to FRA ###		
-		CAS_equipment_1 = { owner = "U02" amount = 192 }				# I/AASF -- Fairey Battles
-		fighter_equipment_1 = { owner = "U02" amount = 96 }			# BEF Air Component -- Hurricane I's
-		### No. 2 Bomber Command (CO: ) ###
-		CAS_equipment_2 = { owner = "U02" amount = 112 }				# I/No. 2 Bomber Group -- Blenheim IV's
-	}
-	126 = { 														# Suffolk  
-		### No. 3 Bomber Command (CO: ) ###
-		tac_bomber_equipment_2 = { owner = "U02" amount = 128 }		# I/No. 3 Bomber Group -- Wellington IC's
-	}
-	128 = { 														# Lincoln
-		### No. 5 Bomber Command (CO: ) ###
-		tac_bomber_equipment_2 = { owner = "U02" amount = 128 }		# I/No. 5 Bomber Group -- HP Hampden I's
-	}
-	123 = { 														# Plymouth
-		### No. 15 Coastal Group (CO: ) ###
-		nav_bomber_equipment_2 = { owner = "U02" amount = 36 }		# No. 15 Coastal Group -- Sunderlands
-	}
-	121 = { 														# Rosyth
-		### No. 18 Coastal Group (CO: ) ###
-		nav_bomber_equipment_2 = { owner = "U02" amount = 36 }		# No. 18 Coastal Group -- Hudsons
-	}
-
-	##### RAF Middle East (CO: Mitchell) #####
-	447 = { 														# Cairo
-		### Egypt Group (CO: ) ###
-		CAS_equipment_1 = { owner = "U02" amount = 96 }				# I/Egypt Bomber Group -- Blenheim I's, Wellesleys
-		fighter_equipment_0 = { owner = "U02" amount = 48 }			# No. 252 Fighter Wing -- Gladiators
-	}
-	454 = { 
-		### RAF Palestine & Iraq (CO: ) ###
-		fighter_equipment_0 = { owner = "U02" amount = 48 }			# RAF Palestine & RAF Iraq -- Gladiators, Blenheims
-	}
-	454 = { 
-		### Sudan Wing (CO: ) ###
-		CAS_equipment_1 = { owner = "U02" amount = 32 }				# Sudan Wing -- Blenheim I's
-	}
-
-	##### RAF Far East (CO: Brooke-Popham) #####
-	336 = { 
-		CAS_equipment_1 = { owner = "U02" amount = 48 }				# Bomber Group -- Blenheim I's
-		nav_bomber_equipment_1 = { owner = "U02" amount = 36 }		# Coastal Group -- Vildebeests
+		CAS_equipment_1 = { owner = "U02" amount = 350 }				# I/AASF -- Fairey Battles
+		fighter_equipment_1 = { owner = "U02" amount = 150 }			# BEF Air Component -- Hurricane I's
 	}
 }
 
@@ -1390,6 +1166,25 @@ air_wings = {
 	## STARTING PRODUCTION ##
 	#########################
 instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_3
+			creator = "U02"
+		}
+		requested_factories = 10
+		progress = 0.80
+		efficiency = 60
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "U02"
+		}
+		requested_factories = 3
+		progress = 0.80
+		efficiency = 60
+	}
 
 }
 	#####################

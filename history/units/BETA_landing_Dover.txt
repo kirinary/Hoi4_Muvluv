@@ -21,6 +21,20 @@
 		start_equipment_factor = 1.0
 	}
 	division = {
+		name = "BETA-Tank"
+		location = 3501
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "BETA-Tank"
+		location = 3501
+		division_template = "BETA-Tank"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
 		name = "BETA-Fort"
 		location = 3501
 		division_template = "BETA-Fort"

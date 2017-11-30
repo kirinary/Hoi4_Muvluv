@@ -24,6 +24,34 @@ state={
 		1998.1.1 = {
 			owner = H01
 			add_core_of = H01
+			
+			buildings = {
+				infrastructure = 10
+				industrial_complex = 8
+				arms_factory = 14
+				
+				1766 = {
+					bunker = 6
+				}
+				anti_air_building = 5
+			}
+			
+			if = {
+				limit = { 
+					619 = { 
+							is_owned_by = H01
+					 }
+				}
+				619 = {
+					 	add_manpower = 800000000
+					 	add_resource = { type = aluminium amount = 0 state = 619 } 
+					 	add_resource = { type = oil amount = 200 state = 619 } 
+					 	add_resource = { type = chromium amount = 200 state = 619 } 
+					 	add_resource = { type = steel amount = 200 state = 619 } 
+					 	add_resource = { type = tungsten amount = 200 state = 619 } 
+					 	add_resource = { type = rubber amount = 200 state = 619 } 
+				}
+			}
 		}
 	}
 

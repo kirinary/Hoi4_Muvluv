@@ -42,13 +42,6 @@ areas = {
 		}
 	}
 	
-	###muv用###
-	japan_area = {
-		continents = {
-			japan_area
-		}
-	}
-
 	pacific = {
 
 		strategic_regions = {
@@ -82,5 +75,19 @@ areas = {
 			81  # Coral Sea
 		}
 	}
+	
+	###muv用###
+	japan_area = {
+		continents = {
+			japan_area
+		}
+	}
+	
+	eu_def_area = {
+		continents = {
+			eu_def_area
+		}
+	}
+	##########
 	
 }

@@ -29,6 +29,20 @@ state=
 		1998.1.1 = {
 			owner = H20
 			add_core_of = H20
+			
+			U04 = {
+				set_province_controller = 1177
+				set_province_controller = 1054
+				set_province_controller = 4056
+				set_province_controller = 4086
+				set_province_controller = 4126
+				set_province_controller = 10085
+				set_province_controller = 10110
+				set_province_controller = 11948
+				set_province_controller = 11977
+				set_province_controller = 12060
+				set_province_controller = 12085
+			}
 		}
 
 	}

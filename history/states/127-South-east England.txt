@@ -33,10 +33,66 @@ state={
 			}
 		}
 		
+		1973.1.1 = {
+			owner = U02
+			add_core_of = U02
+			remove_core_of = ENG
+			
+			buildings = {
+				infrastructure = 8
+				arms_factory = 1
+				industrial_complex = 1
+				dockyard = 2
+				anti_air_building = 2
+				radar_station = 1
+				air_base = 10
+				#3501 = {
+				#	coastal_bunker = 10
+				#	bunker = 10
+				#}
+				13070 = {
+					coastal_bunker = 10
+					bunker = 10
+				}
+				11446 = {
+					coastal_bunker = 10
+					bunker = 10
+				}
+				6103 = {
+					bunker = 10
+				}
+			}
+		}
+		
 		1998.1.1 = {
 			owner = U02
 			add_core_of = U02
 			remove_core_of = ENG
+			
+			buildings = {
+				infrastructure = 8
+				arms_factory = 1
+				industrial_complex = 1
+				dockyard = 2
+				anti_air_building = 2
+				radar_station = 1
+				air_base = 10
+				#3501 = {
+				#	coastal_bunker = 10
+				#	bunker = 10
+				#}
+				13070 = {
+					coastal_bunker = 10
+					bunker = 10
+				}
+				11446 = {
+					coastal_bunker = 10
+					bunker = 10
+				}
+				6103 = {
+					bunker = 10
+				}
+			}
 		}
 	}
 

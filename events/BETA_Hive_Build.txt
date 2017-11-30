@@ -35,14 +35,14 @@ country_event = {
 			# 陣営を作成
 			create_faction = Beta
 			add_political_power = 1199
-			declare_war_on = {  target = PRC  type = annex_everything }  #PRC
+			#declare_war_on = {  target = PRC  type = annex_everything }  #PRC
 		}
 		619 = {
-			add_building_construction  = { type = infrastructure level = 7 instant_build = yes } #インフラ
+			add_building_construction  = { type = infrastructure level = 10 instant_build = yes } #インフラ
 			add_building_construction  = { type = industrial_complex level = 15 instant_build = yes } #民間工場
 			add_building_construction  = { type = arms_factory level = 15 instant_build = yes } #軍事工場
 			add_building_construction  = { type = anti_air_building level = 5 instant_build = yes } #対空砲
-			add_building_construction  = { type = bunker province = 9952 level = 5 instant_build = yes } #陸上要塞
+			add_building_construction  = { type = bunker province = 9952 level = 6 instant_build = yes } #陸上要塞
 			add_manpower = 999999999
 		 	add_resource = { type = aluminium amount = 200 state = 619 } 
 		 	add_resource = { type = oil amount = 200 state = 619 } 
@@ -54,6 +54,7 @@ country_event = {
 		}
 		
 		news_event = { id = muvluv_news.1 }
+		news_event = { id = muvluv_news.40 }
 	}
 }
 
@@ -67,7 +68,8 @@ country_event = {
 
 	trigger = {
 		416 = { is_controlled_by = H01 }
-		date > 1974.10.1
+		date > 1974.2.1
+		PER = { exists = no }
 	}
 
 	mean_time_to_happen = {
@@ -77,17 +79,20 @@ country_event = {
 	option ={
 		H02 = {
 			transfer_state = 266
+			transfer_state = 267
 			transfer_state = 410
 			transfer_state = 411
 			transfer_state = 412
 			transfer_state = 413
 			transfer_state = 414
+			transfer_state = 415
 			transfer_state = 416
 			transfer_state = 417
 			transfer_state = 418
 			transfer_state = 419
 			transfer_state = 420
 			transfer_state = 421
+
 			H02 = {load_oob = "H02_1998"}
 			H02 = {load_oob = "Hive_Build_Mashhad"}
 			add_to_war = { targeted_alliance = H01 enemy = PRC } #PRC
@@ -125,7 +130,70 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		137 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		230 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		238 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		217 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		265 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		406 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
 		407 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		587 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		589 = {
+			OR = {
+				is_controlled_by = H01
+				is_controlled_by = H02
+			}
+		}
+		
+		732 = {
 			OR = {
 				is_controlled_by = H01
 				is_controlled_by = H02
@@ -141,10 +209,34 @@ country_event = {
 
 	option ={
 		H03 = {
+			transfer_state = 137
+			transfer_state = 217
+			transfer_state = 218
+			transfer_state = 229
+			transfer_state = 230
+			transfer_state = 231
+			transfer_state = 232
+			transfer_state = 233
+			transfer_state = 234
+			transfer_state = 235
+			transfer_state = 236
+			transfer_state = 237
+			transfer_state = 238
+			transfer_state = 245
+			transfer_state = 265
+			transfer_state = 402
+			transfer_state = 404
+			transfer_state = 405
+			transfer_state = 406
 			transfer_state = 407
+			transfer_state = 584
+			transfer_state = 585
+			transfer_state = 586
+			transfer_state = 587
+			transfer_state = 589
+			transfer_state = 732
 			H03 = {load_oob = "H03_1998"}
 			H03 = {load_oob = "Hive_Build_Uralsk"}
-			
 		}
 		
 		H01 = { add_to_faction = H03}
@@ -180,6 +272,7 @@ country_event = {
 	trigger = {
 		214 =  {
 			OR = {
+				is_controlled_by = H01
 				is_controlled_by = H02
 				is_controlled_by = H03
 			}
@@ -232,6 +325,7 @@ country_event = {
 	trigger = {
 		206 = {
 			OR = {
+					is_controlled_by = H01
 					is_controlled_by = H02
 					is_controlled_by = H03
 					is_controlled_by = H04
@@ -267,7 +361,166 @@ country_event = {
 		 	
 		}
 		
-		news_event = { id = muvluv_news.3 }
+		news_event = { id = muvluv_news.5 }
+	}
+}
+
+country_event = {
+	id = hive_build.6
+	title = hive_build.6.t
+	desc = hive_build.6.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+
+	trigger = {
+		746 = {
+			OR = {
+					is_controlled_by = H01
+					is_controlled_by = H02
+					is_controlled_by = H03
+					is_controlled_by = H04
+					is_controlled_by = H05
+			}
+		}
+		date > 1977.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option ={
+		H06 = {
+			transfer_state = 746
+			H01 = { add_to_faction = H06}
+			H06 = {load_oob = "H06_1998"}
+			H06 = {load_oob = "Hive_Build_Ekibastuz"}
+		}
+		746 = {
+			add_building_construction  = { type = infrastructure level = 7 instant_build = yes } #インフラ
+			add_building_construction  = { type = industrial_complex level = 15 instant_build = yes } #民間工場
+			add_building_construction  = { type = arms_factory level = 15 instant_build = yes } #軍事工場
+			add_building_construction  = { type = anti_air_building level = 5 instant_build = yes } #対空砲
+			add_building_construction  = { type = bunker province = 11370 level = 5 instant_build = yes } #陸上要塞
+			add_manpower = 999999999
+		 	add_resource = { type = aluminium amount = 200 state = 746 } 
+		 	add_resource = { type = oil amount = 200 state = 746 } 
+		 	add_resource = { type = chromium amount = 200 state = 746 } 
+		 	add_resource = { type = steel amount = 200 state = 746 } 
+		 	add_resource = { type = tungsten amount = 200 state = 746 } 
+		 	add_resource = { type = rubber amount = 200 state = 746 } 
+		 	
+		}
+		
+		news_event = { id = muvluv_news.6 }
+	}
+}
+
+country_event = {
+	id = hive_build.7
+	title = hive_build.7.t
+	desc = hive_build.7.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+
+	trigger = {
+		577 = {
+			OR = {
+					is_controlled_by = H01
+					is_controlled_by = H02
+					is_controlled_by = H03
+					is_controlled_by = H04
+					is_controlled_by = H05
+					is_controlled_by = H06
+			}
+		}
+		date > 1978.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option ={
+		H07 = {
+			transfer_state = 577
+			H01 = { add_to_faction = H07}
+			H06 = {load_oob = "H07_1998"}
+			H06 = {load_oob = "Hive_Build_Surgut"}
+		}
+		577 = {
+			add_building_construction  = { type = infrastructure level = 7 instant_build = yes } #インフラ
+			add_building_construction  = { type = industrial_complex level = 15 instant_build = yes } #民間工場
+			add_building_construction  = { type = arms_factory level = 15 instant_build = yes } #軍事工場
+			add_building_construction  = { type = anti_air_building level = 5 instant_build = yes } #対空砲
+			add_building_construction  = { type = bunker province = 11370 level = 5 instant_build = yes } #陸上要塞
+			add_manpower = 999999999
+		 	add_resource = { type = aluminium amount = 200 state = 577 } 
+		 	add_resource = { type = oil amount = 200 state = 577 } 
+		 	add_resource = { type = chromium amount = 200 state = 577 } 
+		 	add_resource = { type = steel amount = 200 state = 577 } 
+		 	add_resource = { type = tungsten amount = 200 state = 577 } 
+		 	add_resource = { type = rubber amount = 200 state = 577 } 
+		 	
+		}
+		
+		news_event = { id = muvluv_news.7 }
+	}
+}
+
+country_event = {
+	id = hive_build.8
+	title = hive_build.8.t
+	desc = hive_build.8.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+
+	trigger = {
+		148 = {
+			OR = {
+					is_controlled_by = H01
+					is_controlled_by = H02
+					is_controlled_by = H03
+					is_controlled_by = H04
+					is_controlled_by = H05
+					is_controlled_by = H06
+					is_controlled_by = H07
+			}
+		}
+		date > 1981.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option ={
+		H08 = {
+			transfer_state = 148
+			H01 = { add_to_faction = H08}
+			H06 = {load_oob = "H08_1998"}
+			H06 = {load_oob = "Hive_Build_Surgut"}
+		}
+		148 = {
+			add_building_construction  = { type = infrastructure level = 7 instant_build = yes } #インフラ
+			add_building_construction  = { type = industrial_complex level = 15 instant_build = yes } #民間工場
+			add_building_construction  = { type = arms_factory level = 15 instant_build = yes } #軍事工場
+			add_building_construction  = { type = anti_air_building level = 5 instant_build = yes } #対空砲
+			add_building_construction  = { type = bunker province = 11370 level = 5 instant_build = yes } #陸上要塞
+			add_manpower = 999999999
+		 	add_resource = { type = aluminium amount = 200 state = 148 } 
+		 	add_resource = { type = oil amount = 200 state = 148 } 
+		 	add_resource = { type = chromium amount = 200 state = 148 } 
+		 	add_resource = { type = steel amount = 200 state = 148 } 
+		 	add_resource = { type = tungsten amount = 200 state = 148 } 
+		 	add_resource = { type = rubber amount = 200 state = 148 } 
+		 	
+		}
+		
+		news_event = { id = muvluv_news.8 }
 	}
 }
 

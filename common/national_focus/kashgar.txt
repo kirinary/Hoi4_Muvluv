@@ -14,7 +14,7 @@ focus_tree = {
 		id = beta_kashgar_war
 		x = 1
 		y = 0
-		cost = 10
+		cost = 4
 		icon = GFX_goal_generic_construction2
 
 		available = {
@@ -30,7 +30,10 @@ focus_tree = {
 		
 		completion_reward = {
 			H01 = {
-				declare_war_on = {  target = AFG  type = annex_everything }  #AFG
+				create_wargoal = {
+					type = annex_everything
+					target = AFG
+				}
 			}
 		}
 	}
@@ -39,7 +42,7 @@ focus_tree = {
 		id = beta_kashgar_war_2
 		x = 1
 		y = 1
-		cost = 10
+		cost = 6
 		icon = GFX_goal_generic_construction2
 
 		prerequisite = { focus = beta_kashgar_war }
@@ -60,6 +63,18 @@ focus_tree = {
 					type = annex_everything
 					target = PER
 				}
+				create_wargoal = {
+					type = annex_everything
+					target = PRC
+				}
+				#create_wargoal = {
+				#	type = annex_everything
+				#	target = TUR
+				#}
+				#create_wargoal = {
+				#	type = annex_everything
+				#	target = IRQ
+				#}
 			}
 		}
 	}
@@ -75,8 +90,8 @@ focus_tree = {
 		
 		available = {
 		    is_puppet = no
-     	    country_exists  = H02
-		    date > 1974.10.2
+	     	    country_exists  = H02
+		    date > 1974.1.1
 		    date < 1976.1.1
 		}
 
@@ -86,7 +101,10 @@ focus_tree = {
 		
 		completion_reward = {
 			H01 = {
-				declare_war_on = {  target = SOV  type = annex_everything } #SOV
+				create_wargoal = {
+					type = annex_everything
+					target = SOV
+				}
 			}
 			H02 = {
 				add_to_war = { targeted_alliance = H01 enemy = SOV } #SOV 

@@ -7,4 +7,5 @@ continents = {
 	asia
 	middle_east
 	japan_area
+	eu_def_area
 }

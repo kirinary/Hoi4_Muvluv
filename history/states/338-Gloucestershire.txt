@@ -25,10 +25,34 @@ state={
 		}
 		add_core_of = ENG
 		
+		1973.1.1 = {
+			owner = U02
+			add_core_of = U02
+			remove_core_of = ENG
+			
+			buildings = {
+				infrastructure = 9
+				arms_factory = 3
+				industrial_complex = 4
+				3369 = {
+					naval_base = 5
+				}
+			}
+		}
+		
 		1998.1.1 = {
 			owner = U02
 			add_core_of = U02
 			remove_core_of = ENG
+			
+			buildings = {
+				infrastructure = 9
+				arms_factory = 3
+				industrial_complex = 4
+				3369 = {
+					naval_base = 5
+				}
+			}
 		}
 	}
 

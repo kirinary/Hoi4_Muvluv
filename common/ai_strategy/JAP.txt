@@ -104,7 +104,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = asia
-		value = -100
+		value = -50
 	}
 	
 	ai_strategy = {

@@ -17,9 +17,6 @@ division_template = {
 		tsf = { x = 0 y = 0 }
 		tsf = { x = 0 y = 1 }
 		tsf = { x = 0 y = 2 }
-		tsf = { x = 1 y = 0 }
-		tsf = { x = 1 y = 1 }
-		tsf = { x = 1 y = 2 }
 	}
 }
 
@@ -311,7 +308,7 @@ air_wings = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = tsf_equipment_0
+			type = tsf_equipment_3
 			creator = "U01"
 		}
 		requested_factories = 15
@@ -325,42 +322,6 @@ instant_effect = {
 			creator = "U01"
 		}
 		requested_factories = 10
-		progress = 0.40
-		efficiency = 60
-	}
-	add_equipment_production = {
-		equipment = {
-			type = TSF-TYPE82R
-			creator = "U01"
-		}
-		requested_factories = 2
-		progress = 0.40
-		efficiency = 60
-	}
-	add_equipment_production = {
-		equipment = {
-			type = TSF-TYPE82F
-			creator = "U01"
-		}
-		requested_factories = 4
-		progress = 0.40
-		efficiency = 60
-	}
-	add_equipment_production = {
-		equipment = {
-			type = TSF-TYPE82A
-			creator = "U01"
-		}
-		requested_factories = 12
-		progress = 0.40
-		efficiency = 60
-	}
-	add_equipment_production = {
-		equipment = {
-			type = TSF-TYPE82C
-			creator = "U01"
-		}
-		requested_factories = 15
 		progress = 0.40
 		efficiency = 60
 	}

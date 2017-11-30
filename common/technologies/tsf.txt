@@ -1,5 +1,50 @@
 technologies = {
 
+	tsf_basic_research = {
+		
+		enable_equipments = {
+			tsf_equipment_13
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1971
+		
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 150
+				date > 1972.12.1
+			}
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = tsf
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_tsf"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
 	tsf_mc = {
 
 		enable_equipments = {
@@ -16,47 +61,30 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		#path = {
+		#	leads_to_tech = tsf_os1
+		#	research_cost_coeff = 1
+		#}
+
+		path = {
+			leads_to_tech = tsf_mc1
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
-		start_year = 1920
+		start_year = 1972
 		
 		folder = {
 			name = tsf_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 2 }
 		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = tsf
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_tsf"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-		
+
 		ai_will_do = {
 			factor = 1
 			
 			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1921.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1922.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1923.1.1"
+				factor = 150
+				date > 1973.3.1
 			}
 		}
 		
@@ -64,6 +92,391 @@ technologies = {
 			armor
 		}
 	}
+
+	tsf_mc1 = {
+
+		enable_equipments = {
+			tsf_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = tsf_mc2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1974
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1974.1.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	tsf_mc2 = {
+
+		enable_equipments = {
+			tsf_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = tsf_mc3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1974
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1974.1.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	tsf_mc3 = {
+
+		enable_equipments = {
+			tsf_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1979.1.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc4 = {
+
+		enable_equipments = {
+			tsf_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 1981
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1979.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc5 = {
+
+		enable_equipments = {
+			tsf_equipment_5
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 1982
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1981.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc6 = {
+
+		enable_equipments = {
+			tsf_equipment_6
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 1992
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1991.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc7 = {
+
+		enable_equipments = {
+			tsf_equipment_7
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc8
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 1994
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1993.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc8 = {
+
+		enable_equipments = {
+			tsf_equipment_8
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc9
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 1998
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 1997.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc9 = {
+
+		enable_equipments = {
+			tsf_equipment_9
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc10
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 2001
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 2000.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc10 = {
+
+		enable_equipments = {
+			tsf_equipment_10
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc11
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 2004
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 2003.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc11 = {
+
+		enable_equipments = {
+			tsf_equipment_11
+		}
+		
+		path = {
+			leads_to_tech = tsf_mc12
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		start_year = 2005
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 2004.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	tsf_mc12 = {
+
+		enable_equipments = {
+			tsf_equipment_12
+		}
+		
+		#path = {
+		#	leads_to_tech = tsf_mc13
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 5
+		start_year = 2008
+		folder = {
+			name = tsf_folder
+			position = { x = 0 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 40
+				date > 2007.9.1
+			}
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
 
 	tsf_weapons1 = {
 		
@@ -74,40 +487,25 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = tsf_improved_mc
+			leads_to_tech = tsf_weapons2
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1922
+		start_year = 1973
 		
 		folder = {
 			name = tsf_folder
-			position = { x = 0 y = 2 }
+			position = { x = 5 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 			
 			modifier = {
-				factor = 2
-				is_major = yes
+				factor = 2.5
 			}
 			
-			modifier = {
-				factor = 1.1
-				date > "1922.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1923.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1924.1.1"
-			}
 		}
 		
 		categories = {
@@ -115,53 +513,6 @@ technologies = {
 		}
 	}
 
-	tsf_improved_mc = {
-
-		enable_equipments = {
-			tsf_equipment_1
-		}
-	
-		path = {
-			leads_to_tech = tsf_weapons2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1923
-		folder = {
-			name = tsf_folder
-			position = { x = 0 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-				date > "1922.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1924.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1925.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1926.1.1"
-			}
-		}
-		
-		categories = {
-			armor
-		}
-	}
 
 	tsf_weapons2 = {
 		
@@ -172,88 +523,22 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = tsf_advanced_mc
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1924
-		
-		folder = {
-			name = tsf_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-				date > "1923.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1925.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1926.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1927.1.1"
-			}
-		}
-		
-		categories = {
-			armor
-		}
-	}
-
-	tsf_advanced_mc = {
-
-		enable_equipments = {
-			tsf_equipment_2
-		}
-	
-		path = {
 			leads_to_tech = tsf_weapons3
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1925
+		start_year = 1980
+		
 		folder = {
 			name = tsf_folder
-			position = { x = 0 y = 8 }
+			position = { x = 5 y = 6 }
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 2
+
 			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1926.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1927.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1928.1.1"
-			}
 		}
 		
 		categories = {
@@ -269,17 +554,17 @@ technologies = {
 			ap_attack = 0.05
 		}
 	
-		path = {
-			leads_to_tech = super_mc
-			research_cost_coeff = 1
-		}
+		#path = {
+		#	leads_to_tech = tsf_weapons3
+		#	research_cost_coeff = 1
+		#}
 		
 		research_cost = 2
-		start_year = 1926
+		start_year = 1990
 		
 		folder = {
 			name = tsf_folder
-			position = { x = 0 y = 10 }
+			position = { x = 5 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -287,60 +572,8 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				is_major = yes
 			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1927.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1928.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1929.1.1"
-			}
-		}
-		
-		categories = {
-			armor
-		}
-	}
 
-	super_mc = {
-
-		enable_equipments = {
-			tsf_equipment_3
-		}
-		
-		research_cost = 2
-		start_year = 1927
-		folder = {
-			name = tsf_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.1
-				date > "1928.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1929.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1930.1.1"
-			}
 		}
 		
 		categories = {
@@ -361,11 +594,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1922
+		start_year = 1978
 		
 		folder = {
 			name = tsf_folder
-			position = { x = -4 y = 2 }
+			position = { x = -5 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -373,23 +606,8 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				is_major = yes
 			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1922.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1923.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1924.1.1"
-			}
+
 		}
 		
 		categories = {
@@ -410,11 +628,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1924
+		start_year = 1980
 		
 		folder = {
 			name = tsf_folder
-			position = { x = -4 y = 6 }
+			position = { x = -5 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -422,24 +640,9 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				is_major = yes
 				date > "1923.1.1"
 			}
 			
-			modifier = {
-				factor = 1.1
-				date > "1925.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1926.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1927.1.1"
-			}
 		}
 		
 		categories = {
@@ -455,11 +658,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1926
+		start_year = 1990
 		
 		folder = {
 			name = tsf_folder
-			position = { x = -4 y = 10 }
+			position = { x = -5 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -467,22 +670,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1927.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1928.1.1"
-			}
-			
-			modifier = {
-				factor = 1.1
-				date > "1929.1.1"
 			}
 		}
 		

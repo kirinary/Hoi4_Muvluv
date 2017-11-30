@@ -44,6 +44,12 @@ state={
 		victory_points = {
 			13046 1 
 		}
+		
+		1998.1.1 = {
+			owner = USA
+			add_core_of = USA
+			remove_core_of = JAP
+		}
 
 	}
 

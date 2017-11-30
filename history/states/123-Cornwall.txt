@@ -21,6 +21,12 @@ state= {
 		}
 		add_core_of = ENG
 		
+		1973.1.1 = {
+			owner = U02
+			add_core_of = U02
+			remove_core_of = ENG
+		}
+		
 		1998.1.1 = {
 			owner = U02
 			add_core_of = U02

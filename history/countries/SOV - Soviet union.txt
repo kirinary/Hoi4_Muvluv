@@ -32,7 +32,6 @@ set_technology = {
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
-	transport = 1
 	mass_assault = 1
 	fleet_in_being = 1
 }
@@ -98,6 +97,16 @@ set_technology = {
 
 1998.1.1 = {
 		add_to_war = { targeted_alliance = U02 enemy = H01 } #H01
+		add_political_power = 600
+		set_technology = {
+			###Muvluv用###
+			tsf_basic_research = 1
+			tsf_mc = 1
+			tsf_mc1 = 1
+			tsf_mc2 = 1
+			tsf_mc3 = 1
+			###########
+		}
 	}
 
 
@@ -512,66 +521,4 @@ create_navy_leader = {
 		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
 	traits = { seawolf }
 	skill = 2
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Series I Debakrist"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Series IX Srednyaya"
-	type = submarine_2
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Leningrad & Minsk Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 3
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 3
-		ship_anti_air_upgrade = 3
-	}
-}
-
-1939.1.1 = {
-
-	create_equipment_variant = {
-		name = "Series X Shchuka"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 3
-			sub_engine_upgrade = 3
-			sub_stealth_upgrade = 3
-			sub_torpedo_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Maxim Gorky Class"
-		type = heavy_cruiser_2
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 2
-			ship_gun_upgrade = 2
-		}
-	}
 }

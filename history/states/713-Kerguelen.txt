@@ -15,16 +15,9 @@ state={
 		add_core_of = FRA
 		
 		1998.1.1 = {
-			owner = H12
-			add_core_of = H12
+			owner = U01
+			add_core_of = U01
 			remove_core_of = FRA
-			if = {
-				limit = { 
-					14 = { 
-							is_owned_by = H12
-					 }
-				}
-			}
 		}
 	}
 

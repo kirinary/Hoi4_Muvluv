@@ -8,25 +8,75 @@ spriteTypes = {
 		name = "GFX_beta_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/beta_infantry_weapons.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_tsf_basic_research_medium"
+		texturefile = "gfx/interface/technologies/tsf_basic_research.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_tsf_mc_medium"
-		texturefile = "gfx/interface/technologies/basic_mc.dds"
+		texturefile = "gfx/interface/technologies/tsf_mc.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_tsf_improved_mc_medium"
-		texturefile = "gfx/interface/technologies/tsf_improved_mc.dds"
+		name = "GFX_tsf_mc1_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc1.dds"
 	}
-
+	
 	SpriteType = {
-		name = "GFX_tsf_advanced_mc_medium"
-		texturefile = "gfx/interface/technologies/tsf_advanced_mc.dds"
+		name = "GFX_tsf_mc2_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc2.dds"
 	}
-
+	
 	SpriteType = {
-		name = "GFX_super_mc_medium"
-		texturefile = "gfx/interface/technologies/super_mc.dds"
+		name = "GFX_tsf_mc3_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc4_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc5_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc6_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc7_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc8_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc9_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc10_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc11_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc11.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tsf_mc12_medium"
+		texturefile = "gfx/interface/technologies/tsf_mc12.dds"
 	}
 
 	SpriteType = {

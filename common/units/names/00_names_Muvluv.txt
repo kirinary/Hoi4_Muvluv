@@ -28,5 +28,12 @@ generic = {
 		unique = {}
 	}
 	
+	beta_laser = {
+		prefix = ""
+		generic = { "BETA-Laser" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
 	##########
 }

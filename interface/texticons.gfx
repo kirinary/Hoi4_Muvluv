@@ -452,6 +452,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_unit_beta_laser_icon_small"
+		texturefile = "gfx/texticons/unit_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
 		name = "GFX_unit_TSF-Imperial-Army_icon_small"
 		texturefile = "gfx/texticons/unit_infantry_icon_small.dds"
 		legacy_lazy_load = no

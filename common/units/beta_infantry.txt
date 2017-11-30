@@ -26,18 +26,18 @@ sub_units = {
 		#Size Definitions
 		max_strength = 40
 		max_organisation = 200
-		default_morale = 0.5
-		manpower = 600
+		default_morale = 0.8
+		manpower = 1000
 
 		#Misc Abilities
-		training_time = 60
+		training_time = 80
 		suppression = 8
-		weight = 0.5
+		weight = 30
 		
-		supply_consumption = 0.01
+		supply_consumption = 0.1
 	
 		need = {
-			beta_tank_equipment_1 = 300
+			beta_tank_equipment_1 = 1000
 		}
 		hills = {
 			attack = 0.1
@@ -83,19 +83,19 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 45
-		max_organisation = 200
-		default_morale = 0.5
-		manpower = 300
+		max_organisation = 250
+		default_morale = 0.8
+		manpower = 250
 
 		#Misc Abilities
-		training_time = 80
+		training_time = 120
 		suppression = 10
-		weight = 0.8
+		weight = 40
 		
-		supply_consumption = 0.01
+		supply_consumption = 0.1
 	
 		need = {
-			beta_fort_equipment_1 = 200
+			beta_fort_equipment_1 = 250
 		}
 		hills = {
 			attack = 0.1

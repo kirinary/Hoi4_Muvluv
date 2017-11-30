@@ -55,6 +55,7 @@ spriteTypes = {
 	
 		spriteType = { name = "GFX_unit_beta_tank_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/beta_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_beta_fort_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/beta_fort_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_beta_laser_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/beta_laser_icon.dds" noOfFrames = 2 }
 	
 		spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-R_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_TSF-Imperial-Royal-Guard-F_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" noOfFrames = 2}
@@ -64,5 +65,6 @@ spriteTypes = {
 	
 		spriteType = { name = "GFX_unit_beta_tank_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/beta_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_beta_fort_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/beta_fort_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_beta_laser_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/beta_laser_icon.dds" noOfFrames = 2 }
 	
 }

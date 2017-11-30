@@ -15,6 +15,10 @@ division_template = {
 		beta_tank = { x = 2 y = 1 }
 		beta_tank = { x = 2 y = 2 }
 	}
+	
+	support = {
+		beta_laser = { x = 0 y = 0 }
+	}
 }
 
 #####################

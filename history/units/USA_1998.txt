@@ -79,9 +79,6 @@ division_template = {
 		tsf = { x = 0 y = 0 }
 		tsf = { x = 0 y = 1 }
 		tsf = { x = 0 y = 2 }
-		tsf = { x = 1 y = 0 }
-		tsf = { x = 1 y = 1 }
-		tsf = { x = 1 y = 2 }
 	}
 }
 
@@ -94,15 +91,63 @@ units = {
 		location = 1440
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
-	}			
+	}	
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}		
 	division = {			
 		name = "Panama Canal Force"		
 		location = 7617
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 
@@ -303,7 +348,7 @@ units = {
 		location = 13091
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 	division= {			
@@ -311,7 +356,7 @@ units = {
 		location = 13067
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}
 			
@@ -331,7 +376,7 @@ units = {
 		location = 13052
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}				
 	division= {				
@@ -339,7 +384,7 @@ units = {
 		location = 13047
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}				
 	division= {				
@@ -347,7 +392,7 @@ units = {
 		location = 12140
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}				
 	
@@ -357,7 +402,7 @@ units = {
 		location = 13048
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 	division= {			
@@ -365,7 +410,7 @@ units = {
 		location = 13049
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 	division= {			
@@ -373,7 +418,7 @@ units = {
 		location = 13050
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 	division= {			
@@ -381,7 +426,7 @@ units = {
 		location = 13053
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 	division= {			
@@ -389,7 +434,7 @@ units = {
 		location = 13051
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 0.8
 
 	}			
 

@@ -49,3 +49,108 @@ news_event = {
 		name = muvluv_news.3.a
 	}
 }
+
+news_event = {
+	id = muvluv_news.4
+	title = muvluv_news.4.t
+	desc = muvluv_news.4.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.4.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.5
+	title = muvluv_news.5.t
+	desc = muvluv_news.5.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.5.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.6
+	title = muvluv_news.6.t
+	desc = muvluv_news.6.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.6.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.7
+	title = muvluv_news.7.t
+	desc = muvluv_news.7.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.7.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.8
+	title = muvluv_news.8.t
+	desc = muvluv_news.8.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.8.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.9
+	title = muvluv_news.9.t
+	desc = muvluv_news.9.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.9.a
+	}
+}
+
+news_event = {
+	id = muvluv_news.40
+	title = muvluv_news.40.t
+	desc = muvluv_news.40.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = muvluv_news.40.a
+	}
+}

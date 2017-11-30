@@ -14,12 +14,12 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1998.1.3
-		date < 1998.1.6
+		date > 1998.7.1
+		date < 1998.8.1
 		
 		if = {
 			NOT = {
-				 528 = { is_core_of = H16 } 
+				 528 = { is_claimed_by = H16 } 
 			}
 		}
 	}
@@ -37,19 +37,19 @@ country_event = {
 		
 		hidden_effect = {
 			528 = { 
-					add_core_of = H16
+					 add_claim_by = H16
 
 			}
 			529 = { 
-					add_core_of = H16
+					 add_claim_by = H16
 
 			}
 			530 = { 
-					add_core_of = H16
+					 add_claim_by = H16
 
 			}
 			531 = { 
-					add_core_of = H16
+					 add_claim_by = H16
 
 			}
 		}
@@ -65,18 +65,18 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		date > 1998.1.8
+		date > 1998.7.1
 		TAG = H16
 		
 		IF = {
 			 528 = {
-			 	 is_core_of = H16
+			 	  is_claimed_by = H16
 	     	 }
 	    }
 	}
 
 	mean_time_to_happen = {
-		days = 20
+		days = 40
 	}
 	
 	option = {
@@ -111,7 +111,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		date > 1998.1.8
+		date > 1998.7.1
 		TAG = H16
 	}
 
@@ -148,12 +148,12 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1998.1.3
-		date < 1998.1.6
+		date > 1998.3.1
+		date < 1998.4.1
 		
 		if = {
 			NOT = {
-				 127 = { is_core_of = H12 } 
+				 127 = { is_claimed_by = H12 } 
 			}
 		}
 	}
@@ -171,7 +171,7 @@ country_event = {
 		
 		hidden_effect = {
 			127 = { 
-					add_core_of = H12
+					add_claim_by = H12
 			}
 		}
 	}
@@ -186,18 +186,18 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		date > 1998.1.10
+		date > 1998.3.1
 		TAG = H12
 		
 		IF = {
 			 127 = {
-			 	 is_core_of = H12
+			 	 is_claimed_by = H12
 	     	 }
 	    }
 	}
 
 	mean_time_to_happen = {
-		days = 30
+		days = 35
 	}
 	
 	option = {
@@ -215,12 +215,12 @@ country_event = {
 				
 				set_global_flag = beta_landing_dover
 				H12 = {load_oob = "BETA_landing_Dover"}
+				U02 = { country_event = { id = eu.5 } }
 				
 			}
 			
 			
 		}
-		U02 = { country_event = { id = eu.5 } }
 	}
 }
 
@@ -234,7 +234,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		date > 1998.1.8
+		date > 1998.3.1
 		TAG = H16
 	}
 

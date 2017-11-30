@@ -9,7 +9,12 @@ set_national_unity = 0.8
 # Starting tech
 set_technology = {
 		###戦術機###
+		tsf_basic_research = 1
 		tsf_mc = 1
+		tsf_mc1 = 1
+		tsf_mc2 = 1
+		tsf_mc3 = 1
+		tsf_mc4 = 1
 		###########
 		infantry_weapons = 1
 		tech_support = 1
@@ -126,6 +131,7 @@ set_politics = {
 
 1998.1.1 = {
 		add_to_war = { targeted_alliance = U02 enemy = H01 } #H01
+		add_political_power = 600
 	}
 
 ######################################

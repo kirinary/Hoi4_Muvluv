@@ -7,6 +7,7 @@ oob = "U08_1998"
 
 1998.1.1 = {
 		add_to_war = { targeted_alliance = U02 enemy = H01 } #H01
+		add_political_power = 600
 	}
 
 ######################################
@@ -15,7 +16,10 @@ oob = "U08_1998"
 # Starting tech
 set_technology = {
 	###戦術機###
+	tsf_basic_research = 1
 	tsf_mc = 1
+	tsf_mc1 = 1
+	tsf_mc2 = 1
 	###########
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -43,7 +47,6 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	early_carrier = 1
-	transport = 1
 	trench_warfare = 1
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1

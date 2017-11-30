@@ -4,6 +4,7 @@ oob = "H01_1998"
 1998.1.1 = {
 	set_technology = {
 		beta_infantry_weapons = 1
+		beta_antiair_weapons = 1
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -49,6 +50,21 @@ oob = "H01_1998"
 	set_research_slots = 0
 	set_national_unity = 0.9
 
+	set_politics = {
+
+		parties = {
+			beta = {
+				popularity = 100
+			}
+		}
+		
+		ruling_party = beta
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
 	# 陣営作成許可
 	add_ideas = {
 		beta_group
@@ -89,21 +105,6 @@ oob = "H01_1998"
 	######################################
 	# BETA戦争関連　ここまで
 	######################################
-
-	set_politics = {
-
-		parties = {
-			beta = {
-				popularity = 100
-			}
-		}
-		
-		ruling_party = beta
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 
 1973.1.1 = {
 	set_technology = {
@@ -153,16 +154,7 @@ oob = "H01_1998"
 	set_research_slots = 0
 	set_national_unity = 0.9
 
-	# 陣営作成許可
-	add_ideas = {
-		beta_group
-	}
 
-	# 陣営を作成
-	create_faction = Beta
-	add_political_power = 1199
-	declare_war_on = {  target = PRC  type = annex_everything }  #U02
-	
 	set_politics = {
 		parties = {
 			beta = {
